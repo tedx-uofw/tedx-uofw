@@ -1,6 +1,6 @@
 import React from 'react';
-import ComingSoon from "./component/ComingSoon"
-import './app.css'
+import ComingSoon from "./components/ComingSoon"
+import './App.css'
 
 function App() {
     return (

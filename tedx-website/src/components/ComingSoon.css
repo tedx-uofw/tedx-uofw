@@ -1,10 +1,28 @@
 html {
+    /* set background image */
     background: url("../assets/comingsoon-background.png") no-repeat center center fixed;
     background-size: cover;
 }
 
+/* fade in animation*/
+body {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .content-section {
-    /* full screen */
+    /* extend the component to the full screen */
     height: 100%;
     width: 100%;
 }

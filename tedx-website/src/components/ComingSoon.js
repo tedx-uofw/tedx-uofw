@@ -1,5 +1,5 @@
 import React from "react";
-import "./comingsoon.css"
+import "./ComingSoon.css"
 
 function ComingSoon(props) {
     return (
