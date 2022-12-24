@@ -1,0 +1,42 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+#body{
+  background-color: #0C0C0C;
+  
+}
+#footer{  
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12pt;
+  background-color: #0C0C0C;
+  opacity: 0.5;
+}
+
+/* <>Margin */
+#leftContent{
+  color: #FBFBFB;
+  margin-left: 15px;
+}
+.icons{
+  padding-left: 10px;
+  color: #FBFBFB;
+  text-decoration: none;
+  
+}
+/* <>Margin */
+#rightContent{
+  margin-right: 16px;
+}
+
+svg:hover{
+  color: #FBFBFB;
+}
+
+
+

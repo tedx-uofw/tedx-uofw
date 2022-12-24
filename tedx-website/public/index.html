@@ -20,12 +20,21 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+  <!--
+    Link to connect the style.css file to index.html
+  -->
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  
+  <!--
+    Link to provide access to Bootstrap and its features. Have not inlcuded links
+    that connect Bootstrap with JavaScript yet
+  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
   <title>TEDxUofW</title>
 </head>
-
-<body>
-  <div id="root"></div>
-  <!--
+<!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -34,7 +43,49 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+-->
+<!--Used a margin of 16px for the sides of the website - BE CONSISTENT WITH THIS MARGIN. If you want to change the margin value, make sure change the left and right margin in CSS files. Commented with "<>Margin" -->
+<body id="body">
+  <div id="content">
+    <p>content</p>
+  </div>
+  <div id="footer">
+      <p id = "leftContent">© TEDxUofW 2022 | SEE THE INVISIBLE</p>
+      <p id= "rightContent">
+        <!--*Instagram, Facebook, Linkedin icons' code provided by tabler icons. Credit given below-->
+        <a  class="icons" href="https://www.instagram.com/tedxuofw/?hl=en">
+    
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <rect x="4" y="4" width="16" height="16" rx="4"></rect>
+            <circle cx="12" cy="12" r="3"></circle>
+            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501"></line>
+          </svg>
+      
+        </a>
+        <a  class="icons" href="https://www.facebook.com/TEDxUofW/">
+ 
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
+          </svg>
+         
+        </a>
+        <a  class="icons" href="https://www.linkedin.com/company/tedxuofw/about/">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+            <line x1="8" y1="11" x2="8" y2="16"></line>
+            <line x1="8" y1="8" x2="8" y2="8.01"></line>
+            <line x1="12" y1="16" x2="12" y2="11"></line>
+            <path d="M16 16v-3a2 2 0 0 0 -4 0"></path>
+          </svg>
+        </a>
+      </p>
+
+  </div>
+  
+  
 </body>
 
 </html>
