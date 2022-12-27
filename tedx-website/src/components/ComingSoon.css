@@ -1,23 +1,13 @@
 html {
     /* set background image */
-    background: url("../assets/comingsoon-background.png") no-repeat center center fixed;
+    background: url("../assets/comingsoon-background-gradient.png") no-repeat center center fixed;
     background-size: cover;
 }
 
-/* fade in animation
-body {
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-} */
-
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
+/* mobile phone breakpoint */
+@media (max-width: 1024px) {
+    html {
+        background-position: 95% 50%;
     }
 }
 
@@ -37,7 +27,8 @@ body {
 }
 
 h2 {
-    font-size: 8.8vh;
+    font-family: NeueHaasDisplayRoman;
+    font-size: 55px;
     color: white;
     margin: 0;
 }
