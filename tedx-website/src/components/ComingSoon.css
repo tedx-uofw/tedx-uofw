@@ -1,11 +1,18 @@
 html {
     /* set background image */
-    background: url("../assets/comingsoon-background.png") no-repeat center center fixed;
+    background: url("../assets/comingsoon-background-gradient.png") no-repeat center center fixed;
     background-size: cover;
 }
 
 body {
     background-color: transparent !important;
+}
+
+/* mobile phone breakpoint */
+@media (max-width: 1024px) {
+    html {
+        background-position: 95% 50%;
+    }
 }
 
 .content-section {
@@ -24,7 +31,8 @@ body {
 }
 
 h2 {
-    font-size: 8.8vh;
+    font-family: NeueHaasDisplayRoman;
+    font-size: 55px !important;
     color: white;
     margin: 0;
 }
