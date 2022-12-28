@@ -15,16 +15,16 @@ function Footer(props){
                 <p id = "leftContent">© TEDxUofW 2022 | SEE THE INVISIBLE</p>
                 <div id= "rightContent">
                     <a className ="icons" href="mailto:tedxuofw@uw.edu">
-                        <img src={mailicon}></img>
-                    </a>
-                    <a className ="icons" href="https://www.instagram.com/tedxuofw/?hl=en">
-                        <img src={instagramlogo}></img>
+                        <img className="img" src={mailicon} alt=""></img>
                     </a>
                     <a className ="icons" href= "https://www.facebook.com/TEDxUofW/">
-                        <img src={facebooklogo}></img>
+                        <img className="img" src={facebooklogo} alt=""></img>
+                    </a>
+                    <a className ="icons" href="https://www.instagram.com/tedxuofw/?hl=en">
+                        <img className="img" src={instagramlogo} alt=""></img>
                     </a>
                     <a  className ="icons" href="https://www.linkedin.com/company/tedxuofw/about/">
-                        <img src={linkedinlogo}></img>
+                        <img className="img" src={linkedinlogo} alt=""></img>
                     </a>
                 </div>
             </div>

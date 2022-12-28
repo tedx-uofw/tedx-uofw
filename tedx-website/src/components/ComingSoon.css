@@ -22,12 +22,12 @@ body {
 }
 
 .main-header {
-    /* center the "COMING SOON" text */
+    /* center the "COMING SOON" text vertically*/
     display: flex;
     align-items: center;
     height: 100%;
-
-    padding: 0vh 4.5vh;
+    margin: 20px;
+    padding: 0vh; /*removed left padding of 4vh as it messed with the margin*/
 }
 
 h2 {
