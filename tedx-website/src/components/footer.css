@@ -13,15 +13,17 @@
   #footer {
     font-size: max(3vw, 12px);
   }
-  .img{
-    width: max(5vw,20px);
-    height: max(3vw,16px);
-  }
-  .icons{
-    padding-left: 5px !important;
+
+  .img {
+    width: max(5vw, 20px);
+    height: max(3vw, 16px);
   }
 
+  .icons {
+    padding-left: 5px !important;
+  }
 }
+
 /*for smaller screens like the galaxy fold*/
 @media (max-width: 415px) {
   #footer {
@@ -34,16 +36,21 @@
   }
   #leftContent{
     margin-bottom: 5px;
+    margin-left: 0px !important;
+  
   }
   #rightContent{
     margin-bottom: 5px;
     margin-right: 0px !important;
+  
+    
   }
   .img{
     width: max(3vw,16px);
     height: max(3vw,12px);
   }
-  .icons{
+
+  .icons {
     padding-left: 3px !important;
   }
 

@@ -12,7 +12,7 @@ function Footer(props){
         <div>
             <div id="root"> </div>
             <div id="footer">
-                <p id = "leftContent">© TEDxUofW 2022 | SEE THE INVISIBLE</p>
+                <p id = "leftContent">© TEDxUofW 2022 | SEEING THE INVISIBLE</p>
                 <div id= "rightContent">
                     <a className ="icons" href="mailto:tedxuofw@uw.edu">
                         <img className="img" src={mailicon} alt=""></img>

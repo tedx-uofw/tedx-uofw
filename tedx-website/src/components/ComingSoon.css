@@ -11,7 +11,7 @@ body {
 /* mobile phone breakpoint */
 @media (max-width: 1024px) {
     html {
-        background-position: 95% 50%;
+        background-position: 70% 50%;
     }
 }
 
