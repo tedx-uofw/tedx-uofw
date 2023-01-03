@@ -26,13 +26,13 @@ body {
     display: flex;
     align-items: center;
     height: 100%;
-    margin: 20px;
+    margin: 40px;
     padding: 0vh; /*removed left padding of 4vh as it messed with the margin*/
 }
 
 h2 {
     font-family: NeueHaasDisplayRoman;
-    font-size: 55px !important;
+    font-size: 61px !important;
     color: white;
     margin: 0;
 }
