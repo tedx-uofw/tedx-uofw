@@ -27,7 +27,8 @@ body {
     align-items: center;
     height: 100%;
     margin: 40px;
-    padding: 0vh; /*removed left padding of 4vh as it messed with the margin*/
+    padding: 0vh;
+    /*removed left padding of 4vh as it messed with the margin*/
 }
 
 h2 {
