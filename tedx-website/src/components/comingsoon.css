@@ -4,10 +4,14 @@ html {
     background-size: cover;
 }
 
+body {
+    background-color: transparent !important;
+}
+
 /* mobile phone breakpoint */
 @media (max-width: 1024px) {
     html {
-        background-position: 95% 50%;
+        background-position: 70% 50%;
     }
 }
 
@@ -18,17 +22,17 @@ html {
 }
 
 .main-header {
-    /* center the "COMING SOON" text */
+    /* center the "COMING SOON" text vertically*/
     display: flex;
     align-items: center;
     height: 100%;
-
-    padding: 0vh 4.5vh;
+    margin: 40px;
+    padding: 0vh;
 }
 
 h2 {
     font-family: NeueHaasDisplayRoman;
-    font-size: 55px;
+    font-size: 61px !important;
     color: white;
     margin: 0;
 }
