@@ -10,7 +10,7 @@ import mailicon from '../assets/mail.svg';
 function Footer(props){
     return (
         <div id="footer">
-            <p id = "leftContent">© TEDxUofW 2022 | SEEING THE INVISIBLE</p>
+            <p id = "leftContent">© TEDxUofW 2023 | SEEING THE INVISIBLE</p>
             <div id= "rightContent">
                 <a className ="icons" href="mailto:tedxuofw@uw.edu">
                     <img className="img" src={mailicon} alt=""></img>
