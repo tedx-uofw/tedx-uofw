@@ -25,7 +25,7 @@
 /*reponsive web designing for different sized screens*/
 @media (max-width: 1024px) {
   #footer {
-    font-size: max(3vw, 12px);
+    font-size: max(2.2vw, 12pt);
   }
 
   .img {
