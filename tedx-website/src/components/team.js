@@ -1,26 +1,24 @@
 import React from "react";
 import "./team.css"
 import TeamMember from "./teamMember"
-import coPresData from "../assets/coPresData";
 
-
-
-function Team (props){
-
-    const teamMembers = coPresData.map(item => {
+function Team (props){ 
+    const teamMembers = props.data?.map((item, i)=>{
         return (
             <TeamMember 
+                key = {item.name}
                 name={item.name}
                 major={item.major}
                 img={item.img}
             />
         )
     })
+      
     return (
         <div>
             <hr className="TeamDivider"></hr>
             <h1>{props.name}</h1>
-            <section className="teamMemeber-list">
+            <section className="teamMember-list">
                 {teamMembers}
             </section>
         </div>

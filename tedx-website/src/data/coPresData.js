@@ -1,6 +1,8 @@
-import nishtaPhoto from "./nishitaAImg.png"
-import hansonPhoto from "./hansonDImg.png"
-export default [
+import nishtaPhoto from "../assets/teamPhotos/nishtaAImg.png"
+import hansonPhoto from "../assets/teamPhotos/hansonDImg.png"
+
+const data =
+[
     {
         name: "Hanson Dai",
         major: "Real Estate Major",
@@ -12,3 +14,4 @@ export default [
         img: nishtaPhoto
     }
 ]
+export default data;
