@@ -1,13 +1,22 @@
 .TeamDivider{
     border: 1.3px dashed #3C3C3C;
+    margin: 0;
 }
 
 body{
     color: white;
     background: #0C0C0C;
+    margin-left: 50px;
 }
 
 h1{
     font-weight:normal;
-    font-size:38px; 
+    font-size:35px; 
+}
+
+.teamMember-list{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    
 }

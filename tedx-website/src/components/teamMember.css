@@ -1,9 +1,16 @@
-#imgblock{
-    background-color: pink;
-    width:350px;
-    height:350px;
+.memberImg{
+    width: 200px;
+    height:200px;
+
 }
 
 p{
-    font-size: 22px;
+    font-size: 20px;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.memberMajor{
+    font-size:18px;
 }
