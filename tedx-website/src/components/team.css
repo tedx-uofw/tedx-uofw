@@ -1,5 +1,5 @@
 .TeamDivider{
-    border: 1.3px dashed #3C3C3C;
+    border: 1px dashed #3C3C3C;
     margin: 0;
 }
 
@@ -11,7 +11,10 @@ body{
 
 h1{
     font-weight:normal;
-    font-size:35px; 
+    font-size:32px; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+
 }
 
 .teamMember-list{
