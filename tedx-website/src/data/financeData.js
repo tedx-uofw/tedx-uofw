@@ -9,12 +9,12 @@ const data =
 [
     {
         name: "Kelley Zeng",
-        major: "Buisness Major",
+        major: "Business Major",
         img: kelleyPhoto
     },
     {
         name: "Clementine McLemore",
-        major: "Buisness Administration Major",
+        major: "Business Administration Major",
         img: clementinePhoto
     },
     {

@@ -12,6 +12,7 @@ import logisticsData from "../data/logisticsData"
 
 
 
+
 function aboutTeam (props){    
     return (
         <div>

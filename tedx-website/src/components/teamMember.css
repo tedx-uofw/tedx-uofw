@@ -1,16 +1,17 @@
 .memberImg{
-    width: 200px;
-    height:200px;
-
+    width: 275px;
+    height:275px;
+    margin-bottom:5px;
 }
 
 p{
-    font-size: 20px;
-    width: 200px;
+    font-size: 18px;
+    width: 250px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.memberMajor{
-    font-size:18px;
+.memberName{
+   margin-top: 15px;
+   margin-bottom: 0px;
 }

@@ -7,8 +7,8 @@ import Image from 'react-bootstrap/Image'
 function TeamMember (props){
     return (
         <div>
-            <Image className = "rounded memberImg" src={props.img} alt={`${props.name}`} ></Image>
-            <p className="">{props.name}</p>
+            <Image className = "memberImg" src={props.img}rounded alt={props.name} ></Image>
+            <p className= "memberName">{props.name}</p>
             <p className="memberMajor">{props.major}</p>
         </div>
     );

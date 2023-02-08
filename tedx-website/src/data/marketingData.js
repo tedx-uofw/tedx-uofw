@@ -7,7 +7,7 @@ const data =
 [
     {
         name: "Katheine Wu",
-        major: "Buisness Major",
+        major: "Business Major",
         img: katherinePhoto
     },
     {
@@ -17,12 +17,12 @@ const data =
     },
     {
         name: "Alexa Trinidad",
-        major: "Buisness Marketing Major",
+        major: "Business Marketing Major",
         img: alexaPhoto
     },
     {
         name: "Celina Ha Kim",
-        major: "Buisness Administration Major",
+        major: "Business Administration Major",
         img: celinaPhoto
     }
 ]

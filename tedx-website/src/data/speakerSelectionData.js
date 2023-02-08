@@ -19,7 +19,7 @@ const data =
     },
     {
         name: "Airi Suzuki",
-        major: "Buisness Major",
+        major: "Business Major",
         img: airiPhoto
     },
     {
@@ -41,7 +41,7 @@ const data =
     },
     {
         name: "Arushi Sharma",
-        major: "Buisness Administration Major",
+        major: "Business Administration Major",
         img: arushiPhoto
 
     },
