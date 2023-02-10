@@ -6,7 +6,6 @@ let team ="";
 
 function Team (props){ 
     if(props.name === "Co Presidents"){
-        console.log("in da if")
         team = "coPres";
     } else {
         team =""
