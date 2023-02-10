@@ -2,7 +2,15 @@ import React from "react";
 import "./team.css"
 import TeamMember from "./teamMember"
 
+let team ="";
+
 function Team (props){ 
+    if(props.name === "Co Presidents"){
+        console.log("in da if")
+        team = "coPres";
+    } else {
+        team =""
+    }
     const teamMembers = props.data?.map((item, i)=>{
         return (
             <TeamMember 
@@ -16,7 +24,7 @@ function Team (props){
       
     return (
         <div>
-            <hr className="TeamDivider"></hr>
+            <hr className={`TeamDivider ${team}`}></hr>
             <h1>{props.name}</h1>
             <section className="teamMember-list">
                 {teamMembers}

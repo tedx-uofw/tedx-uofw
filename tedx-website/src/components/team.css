@@ -1,8 +1,11 @@
 .TeamDivider{
-    border: .7px dashed #3C3C3C;
+    border: 1px dashed #3C3C3C;
     margin: 0;
+    visibility: visible;
 }
-
+.coPres{
+    visibility: hidden;
+}
 body{
     color: white;
     background: #0C0C0C;
