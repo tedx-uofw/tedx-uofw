@@ -1,6 +1,6 @@
 .team-member-img {
+    aspect-ratio: 1 / 1;
     width: 230px;
-    height: 230px;
     margin-bottom: 20px;
     border-radius: 12px;
 }
@@ -12,4 +12,13 @@
     width: 230px;
     font-size: var(--paragraph-text-size);
     margin-bottom: 0px !important;
+}
+
+@media (max-width: 768px) {
+
+    .team-member-img,
+    .team-member-name-p,
+    .team-member-major-p {
+        width: 100%;
+    }
 }
