@@ -1,5 +1,4 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './footer.css';
 
 import instagramlogo from '../assets/instagram-logo.svg';
@@ -10,8 +9,8 @@ import mailicon from '../assets/mail.svg';
 function Footer(props){
     return (
         <div id="footer">
-            <p id = "leftContent">© TEDxUofW 2023 | SEEING THE INVISIBLE</p>
-            <div id= "rightContent">
+            <p id = "left-content">© TEDxUofW 2023 | Seeing The Invisible</p>
+            <div id= "right-content">
                 <a className ="icons" href="mailto:tedxuofw@uw.edu">
                     <img className="img" src={mailicon} alt=""></img>
                 </a>

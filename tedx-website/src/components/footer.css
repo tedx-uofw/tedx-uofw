@@ -1,20 +1,15 @@
 #footer {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  left: 0;
+  background-color: var(--background-color);
+
   display: flex;
   justify-content: space-between;
-  font-size: 12pt;
-}
 
-#leftContent {
-  color: #FBFBFB;
-  margin-left: 40px;
-}
+  /* font settings */
+  font-size: var(--navbar-footer-text-size);
+  color: var(--text-color);
 
-#rightContent {
-  margin-right: 40px;
+  /* padding */
+  padding: var(--top-bottom-padding-size) var(--right-left-padding-size) !important;
 }
 
 .icons {
@@ -22,41 +17,11 @@
   text-decoration: none;
 }
 
-/*reponsive web designing for different sized screens*/
-@media (max-width: 1024px) {
-  #footer {
-    font-size: max(3vw, 12px);
-  }
-
-  .img {
-    width: max(5vw, 20px);
-    height: max(3vw, 16px);
-  }
-}
-
-/*for smaller screens like the galaxy fold*/
+/* responsive sizing */
 @media (max-width: 415px) {
   #footer {
-    font-size: max(3.5vw, 11px);
     display: flex;
     flex-direction: column;
     column-gap: 50px;
-    margin-left: 40px !important;
-    margin-bottom: 20px !important;
-  }
-
-  #leftContent {
-    margin-bottom: 5px;
-    margin-left: 0px !important;
-  }
-
-  #rightContent {
-    margin-bottom: 5px;
-    margin-right: 0px !important;
-  }
-
-  .img {
-    width: max(4.5vw, 16px);
-    height: max(4.5vw, 12px);
   }
 }

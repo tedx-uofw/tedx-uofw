@@ -1,0 +1,37 @@
+html {
+    /* set background image */
+    background: url("../../assets/comingsoon-background-gradient.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
+    background-color: transparent !important;
+}
+
+/* mobile phone breakpoint */
+@media (max-width: 1024px) {
+    html {
+        background-position: 70% 50%;
+    }
+}
+
+.content-section {
+    /* extend the component to the full screen */
+    height: 100%;
+    width: 100%;
+}
+
+.main-header {
+    /* center the "COMING SOON" text vertically*/
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 40px;
+    padding: 0vh;
+}
+
+h2 {
+    font-size: 61px !important;
+    color: white;
+    margin: 0;
+}

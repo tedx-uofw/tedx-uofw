@@ -3,4 +3,13 @@ body,
 #root,
 .App {
     height: 100%;
+    font-family: NeueHaasDisplayRoman;
+}
+
+p {
+    color: white;
+}
+
+.App {
+    background-size: cover;
 }
