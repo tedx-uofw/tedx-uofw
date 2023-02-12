@@ -1,6 +1,6 @@
 .team-member-img {
-    width: 220px;
-    height: 220px;
+    width: 230px;
+    height: 230px;
     margin-bottom: 20px;
     border-radius: 12px;
 }
@@ -9,7 +9,7 @@
 .team-member-major-p {
     display: flex;
     flex-wrap: wrap;
-    width: 220px;
+    width: 230px;
     font-size: var(--paragraph-text-size);
     margin-bottom: 0px !important;
 }
