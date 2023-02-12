@@ -1,29 +1,24 @@
-.TeamDivider{
-    border: 1px dashed #3C3C3C;
+.team-divider {
+    border: 1.3px dashed #989898;
     margin: 0;
-    visibility: visible;
 }
-.coPres{
-    visibility: hidden;
-}
-body{
+
+body {
     color: white;
     background: #0C0C0C;
     margin-left: 50px;
     margin-right: 50px;
 }
 
-h1{
-    font-weight:normal;
-    font-size:32px; 
+h1 {
+    font-weight: normal;
+    font-size: 32px;
     margin-top: 25px;
     margin-bottom: 25px;
-
 }
 
-.teamMember-list{
+.team-member-list {
     display: flex;
-    gap: 35px;
+    gap: 30px;
     flex-wrap: wrap;
-    
 }

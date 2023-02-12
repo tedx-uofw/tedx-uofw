@@ -1,19 +1,13 @@
 import React from "react";
-import "./team.css"
 import TeamMember from "./teamMember"
 
-let team ="";
+import "./team.css"
 
-function Team (props){ 
-    if(props.name === "Co Presidents"){
-        team = "coPres";
-    } else {
-        team =""
-    }
+function Team(props) { 
     const teamMembers = props.data?.map((item, i)=>{
         return (
             <TeamMember 
-                key = {item.name}
+                key={item.name}
                 name={item.name}
                 major={item.major}
                 img={item.img}
@@ -23,14 +17,13 @@ function Team (props){
       
     return (
         <div>
-            <hr className={`TeamDivider ${team}`}></hr>
+            {props.name !== "Co Presidents" && <hr className="team-divider"></hr>}
             <h1>{props.name}</h1>
-            <section className="teamMember-list">
+            <section className="team-member-list">
                 {teamMembers}
             </section>
         </div>
     );
-    
 }
 
 export default Team;

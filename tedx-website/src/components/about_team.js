@@ -1,19 +1,15 @@
 import React from "react";
 import Team from "./team";
-import coPresData from "../data/coPresData"
-import designData from "../data/designData"
-import webDevData from "../data/webDevData"
-import marketingData from "../data/marketingData"
-import productionData from "../data/productionData"
-import financeData from "../data/financeData"
-import speakerSelectionData from "../data/speakerSelectionData"
-import logisticsData from "../data/logisticsData"
+import coPresData from "../data/copres_data"
+import designData from "../data/design_data"
+import webDevData from "../data/web_dev_data"
+import marketingData from "../data/marketing_data"
+import productionData from "../data/production_data"
+import financeData from "../data/finance_data"
+import speakerSelectionData from "../data/speaker_selection_data"
+import logisticsData from "../data/logistics_data"
 
-
-
-
-
-function aboutTeam (props){    
+function aboutTeam() {    
     return (
         <div>
             <Team
@@ -51,7 +47,6 @@ function aboutTeam (props){
                 name="Speaker Selection Team"
                 data={speakerSelectionData}>
             </Team> 
-            
         </div>
     );
     

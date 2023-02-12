@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutTeam from "./components/about-team.js"
+import AboutTeam from "./components/about_team"
 function App() {
     return (
         <div className="App">
