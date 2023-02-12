@@ -1,0 +1,50 @@
+.ted-navbar-container {
+    padding: var(--top-bottom-padding-size) var(--right-left-padding-size) !important;
+}
+
+@media (min-width: 0px) {
+
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: none !important;
+    }
+}
+
+.navbar,
+.navbar-nav .dropdown-menu,
+.dropdown-item:hover {
+    background-color: var(--background-color) !important;
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+    color: var(--ted-red-color) !important;
+}
+
+.nav-link {
+    padding-left: 20px !important;
+}
+
+.nav-link,
+.dropdown-item {
+    color: var(--text-color) !important;
+    font-style: normal;
+    font-weight: 450 !important;
+    font-size: var(--navbar-footer-text-size) !important;
+    line-height: 21px;
+    letter-spacing: 0.065em;
+}
+
+@media (max-width: 991px) {
+    .nav-link {
+        padding-left: 0px !important;
+    }
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}

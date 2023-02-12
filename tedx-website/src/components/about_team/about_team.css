@@ -1,0 +1,4 @@
+.about-team-container {
+    background-color: var(--background-color);
+    padding: var(--top-bottom-padding-size) var(--right-left-padding-size) !important;
+}
