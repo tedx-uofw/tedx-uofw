@@ -2,8 +2,11 @@ html,
 body,
 #root,
 .App {
-    height: 100%;
     font-family: NeueHaasDisplayRoman;
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 p {

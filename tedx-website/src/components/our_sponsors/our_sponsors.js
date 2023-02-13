@@ -10,8 +10,10 @@ function OurSponsors(props) {
     })
 
     return (
-        <div className="our-sponsors-container">
-            {sponsors}
+        <div className="our-sponsors-page">
+             <div className="our-sponsors-container">
+                {sponsors}
+            </div>
         </div>
     );
 }

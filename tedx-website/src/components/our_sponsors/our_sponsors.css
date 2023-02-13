@@ -1,5 +1,9 @@
-.our-sponsors-container {
+.our-sponsors-page {
+    flex: 1;
     background-color: var(--background-color);
+}
+
+.our-sponsors-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     column-gap: 10vw;
