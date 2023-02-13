@@ -1,5 +1,5 @@
 .ted-navbar-container {
-    padding: var(--top-bottom-padding-size) var(--right-left-padding-size) !important;
+    padding: var(--navbar-footer-top-bottom-padding-size) var(--right-left-padding-size) !important;
 }
 
 @media (min-width: 0px) {

@@ -9,11 +9,9 @@ import financeData from "../../data/finance_data"
 import speakerSelectionData from "../../data/speaker_selection_data"
 import logisticsData from "../../data/logistics_data"
 
-import './about_team.css'
-
 function AboutTeam() {    
     return (
-        <div class="about-team-container">
+        <div class="about-team-container page-container">
             <Team
                 name="Co Presidents"
                 data={coPresData}
