@@ -1,0 +1,24 @@
+.our-sponsors-container {
+    background-color: var(--background-color);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 10vw;
+    row-gap: 5vh;
+    padding: var(--top-bottom-padding-size) var(--right-left-padding-size) !important;
+}
+
+.our-sponsors-img {
+    width: 100%;
+}
+
+@media (max-width: 900px) {
+    .our-sponsors-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 425px) {
+    .our-sponsors-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
