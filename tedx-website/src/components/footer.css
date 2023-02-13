@@ -9,7 +9,7 @@
   color: var(--text-color);
 
   /* padding */
-  padding: var(--top-bottom-padding-size) var(--right-left-padding-size) !important;
+  padding: var(--navbar-footer-top-bottom-padding-size) var(--right-left-padding-size) !important;
 }
 
 .icons {
