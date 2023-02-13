@@ -3,13 +3,13 @@ body,
 #root,
 .App {
     font-family: NeueHaasDisplayRoman;
-}
 
-.App {
     display: flex;
     flex-direction: column;
     height: 100%;
+}
 
+.App {
     background-size: cover;
 }
 
