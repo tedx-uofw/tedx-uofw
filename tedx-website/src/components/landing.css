@@ -1,0 +1,62 @@
+
+html {
+    /* set background color */
+    background-color: black;
+}
+body {
+    background-color: transparent !important;
+}
+.grid-container {
+    display: grid;
+    position: center;
+    padding: 10px;
+    grid-gap: 10px;
+    height: 70vh; 
+    margin-top: 50px !important;
+    margin: 110px;   
+  }
+  
+  .grid-item {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    display: grid;
+    align-items: center;
+  }
+  
+  .item1 {
+    grid-column: 1 / span 4;
+    grid-row: 5 / span 30;
+    height: 40vh;
+    line-height: 20%;
+  }
+  
+  .item2 {
+    grid-column: 4 /span 1;
+    grid-row: 40/ span 50;
+    height: 25vh;
+    font-size: 60px;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+  }
+
+  .item3{
+    grid-column: 1 / span 3;
+    grid-row: 35 / span 55;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .title{
+    display: flex;
+    align-content: left;
+    margin-left: 5%;
+    font-size: 14vh;
+  }
+  .content{
+    line-height: 80%;  
+    margin-right: 15%; 
+  }

@@ -1,12 +1,13 @@
 import React from 'react';
-import ComingSoon from "./components/comingsoon"
+//import ComingSoon from "./components/comingsoon"
 import './app.css'
 import Footer from "./components/footer";
+import Landing from "./components/landing";
 
 function App() {
     return (
         <div className="App">
-            <ComingSoon />
+            <Landing />
             <Footer />
         </div>
     );
