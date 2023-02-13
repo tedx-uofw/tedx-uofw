@@ -9,10 +9,17 @@ body,
     height: 100%;
 }
 
-p {
-    color: white;
-}
-
 .App {
     background-size: cover;
+}
+
+/* common CSS */
+.page-container {
+    flex: 1;
+    padding: 0px var(--right-left-padding-size) 15px !important;
+    background-color: var(--background-color);
+}
+
+p {
+    color: var(--text-color);
 }
