@@ -1,10 +1,11 @@
 :root {
     --right-left-padding-size: 40px;
-    --top-bottom-padding-size: 15px;
+    --navbar-footer-top-bottom-padding-size: 15px;
 
     --background-color: #0C0C0C;
     --ted-red-color: #FF1100;
     --text-color: white;
 
     --navbar-footer-text-size: 15px;
+    --paragraph-text-size: 18px;
 }
