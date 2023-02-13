@@ -1,14 +1,11 @@
-.our-sponsors-page {
-    flex: 1;
-    background-color: var(--background-color);
-}
-
 .our-sponsors-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     column-gap: 10vw;
     row-gap: 5vh;
-    padding: var(--top-bottom-padding-size) var(--right-left-padding-size) !important;
+
+    /* align images vertically center */
+    align-items: center;
 }
 
 .our-sponsors-img {

@@ -1,4 +1,5 @@
 import dummySponsor from "../assets/dummy-sponsor.png"
+import dummySponsor2 from "../assets/dummy-sponsor-2.png"
 
 const data =
 [
@@ -8,7 +9,7 @@ const data =
     },
     {
         altText: "Sponsor2",
-        img: dummySponsor
+        img: dummySponsor2
     },
     {
         altText: "Sponsor3",
