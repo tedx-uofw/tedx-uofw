@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import AboutTeam from './components/about_team/about_team'
+import OurSponsors from './components/our_sponsors/our_sponsors';
 
 function TedRoutes() {
     /* To add a new route, add the following inside <Routes></Routes>.
@@ -8,6 +9,7 @@ function TedRoutes() {
     return (
         <Routes>
             <Route path="/meet-the-team" element = { <AboutTeam /> } />
+            <Route path="/sponsors" element = { <OurSponsors /> } />
         </Routes>
     );
 }

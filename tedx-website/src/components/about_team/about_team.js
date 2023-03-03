@@ -1,5 +1,7 @@
 import React from "react";
 import Team from "../team/team";
+import PageTitle from "../page_title/page_title"
+
 import coPresData from "../../data/copres_data"
 import designData from "../../data/design_data"
 import webDevData from "../../data/web_dev_data"
@@ -12,6 +14,7 @@ import logisticsData from "../../data/logistics_data"
 function AboutTeam() {    
     return (
         <div class="about-team-container page-container">
+            <PageTitle title="Meet the Team" />
             <Team
                 name="Co Presidents"
                 data={coPresData}
