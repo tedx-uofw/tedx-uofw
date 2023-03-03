@@ -1,18 +1,17 @@
 import { Container, Nav, Navbar, NavDropdown }from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
 
 import './ted_navbar.css'
 
-import tedx_logo from '../assets/tedx_logo.png';
+import tedx_logo from '../../assets/tedx_logo.png';
 
 function TedNavBar() {
   const [expanded, setExpanded] = useState(false);
 
   return (
     <Navbar bg="" variant="dark" expand="lg" className="p-0 navbar-fixed-top" expanded={expanded}>
-      <Container>
+      <Container className="ted-navbar-container">
         <Navbar.Brand as={Link} to="/">
           <img
             id="tedx-logo"
