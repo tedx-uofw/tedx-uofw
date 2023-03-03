@@ -1,6 +1,7 @@
 import { Container, Nav, Navbar, NavDropdown }from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
 
 import './ted_navbar.css'
 
@@ -30,7 +31,7 @@ function TedNavBar() {
               </Nav.Link>
             <NavDropdown title="About">
               <NavDropdown.Item as={Link} to="/about-tedx" onClick={() => setExpanded(false)}>About TEDx</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/meet-the-team" onClick={() => setExpanded(false)}>Meet The Team</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/meet-the-team" onClick={() => setExpanded(false)}>Meet the Team</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to="/sponsors" onClick={() => setExpanded(false)}>
                 Sponsors
