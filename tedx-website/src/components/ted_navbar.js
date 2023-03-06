@@ -12,7 +12,7 @@ function TedNavBar() {
 
   return (
     <Navbar bg="" variant="dark" expand="lg" className="p-0 navbar-fixed-top" expanded={expanded}>
-      <Container>
+      <Container className="ted-navbar-container">
         <Navbar.Brand as={Link} to="/">
           <img
             id="tedx-logo"
