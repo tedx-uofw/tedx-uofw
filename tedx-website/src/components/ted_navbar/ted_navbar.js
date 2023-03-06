@@ -4,14 +4,14 @@ import { useState } from 'react';
 
 import './ted_navbar.css'
 
-import tedx_logo from '../assets/tedx_logo.png';
+import tedx_logo from '../../assets/tedx_logo.png';
 
 function TedNavBar() {
   const [expanded, setExpanded] = useState(false);
 
   return (
     <Navbar bg="" variant="dark" expand="lg" className="p-0 navbar-fixed-top" expanded={expanded}>
-      <Container>
+      <Container className="ted-navbar-container">
         <Navbar.Brand as={Link} to="/">
           <img
             id="tedx-logo"
@@ -30,7 +30,7 @@ function TedNavBar() {
               </Nav.Link>
             <NavDropdown title="About">
               <NavDropdown.Item as={Link} to="/about-tedx" onClick={() => setExpanded(false)}>About TEDx</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/meet-the-team" onClick={() => setExpanded(false)}>Meet The Team</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/meet-the-team" onClick={() => setExpanded(false)}>Meet the Team</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to="/sponsors" onClick={() => setExpanded(false)}>
                 Sponsors
