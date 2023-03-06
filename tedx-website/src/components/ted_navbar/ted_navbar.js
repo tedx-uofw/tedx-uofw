@@ -1,11 +1,10 @@
 import { Container, Nav, Navbar, NavDropdown }from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
 
 import './ted_navbar.css'
 
-import tedx_logo from '../assets/tedx_logo.png';
+import tedx_logo from '../../assets/tedx_logo.png';
 
 function TedNavBar() {
   const [expanded, setExpanded] = useState(false);
