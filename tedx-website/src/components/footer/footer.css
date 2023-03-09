@@ -12,7 +12,7 @@
   padding: var(--navbar-footer-top-bottom-padding-size) var(--right-left-padding-size) !important;
 }
 
-.icons {
+.footer-icons {
   padding-right: 8px;
   text-decoration: none;
 }
