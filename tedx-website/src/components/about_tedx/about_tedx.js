@@ -24,11 +24,11 @@ function AboutTedX(props) {
             </Row>
             <Row>
             </Row>
-            <Row>
-                <Col lg="auto">
+            <Row className="tedXUofWInfo">
+                <Col lg="4">
                     <div className="tedXUofWImgPlaceholder"></div>
                 </Col>
-                <Col lg={{ span: 6, offset: 1 }}>
+                <Col lg={{ span: 6, offset: 2 }} >
                     <h3 className='tedXUofWHeader'>TEDxUofW</h3>
                     <p>TEDxUofW is established to bring inspirational and informative TED style talks to the University of Washington. Since 2012, our organization has sought to give amazing speakers a receptive audience to share their passions with. </p>
                     <p>Its annual conference is made possible by a team of creative and hardworking undergraduate students. Our all student-run organization has put on a sold-out event for four years in a row, gathering a collection of great creative thinkers, scientific minds, community leaders, and much more.</p>
