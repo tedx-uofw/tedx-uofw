@@ -1,0 +1,10 @@
+:root {
+    --right-left-padding-size: 40px;
+    --top-bottom-padding-size: 15px;
+
+    --background-color: black;
+    --ted-red-color: #FF1100;
+    --text-color: white;
+
+    --navbar-footer-text-size: 15px;
+}

@@ -7,21 +7,26 @@ import './landing.css';
 function Landing(props){
     return (
         <div>
-            <div className ="grid-container">
-                <div className = "grid-item item1">
-                    <p className="title">SEEING ———</p>
-                    <p className="title">THE INVISIBLE</p>
+        <div class = "row">
+            <div className ="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                <div className = "">
+                    <p className="">SEEING ———</p>
+                    <p className="">THE INVISIBLE</p>
                 </div>
-                <div className = "grid-item item2">
                     <div className = "content">
-                        <p>04.16.23</p>
-                        <p>5:00 pm</p>
-                        <p>Get Tickets</p>
+                        <p>04.22.2023</p>
+                        <p>5:00 PM @Kane Hall</p>
+                        <button>Get Tickets</button>
                     </div>
-                </div>
-                <div className = "grid-item item3">3</div> 
+            </div>
+            <div className = "col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                <p>PICTURE</p>
             </div>
 
+        </div>
+        <div class = "row">
+            
+            </div>
         </div>
     )
 }
