@@ -1,6 +1,6 @@
 html {
     /* set background image */
-    background: url("../assets/comingsoon-background-gradient.png") no-repeat center center fixed;
+    background: url("../../assets/comingsoon-background-gradient.png") no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -31,7 +31,6 @@ body {
 }
 
 h2 {
-    font-family: NeueHaasDisplayRoman;
     font-size: 61px !important;
     color: white;
     margin: 0;

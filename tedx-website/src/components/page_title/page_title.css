@@ -1,0 +1,14 @@
+.page-title-container {
+    padding-top: 3vh;
+    margin-bottom: 5vh;
+}
+
+.page-title-heading {
+    color: var(--text-color);
+    margin-bottom: 2vh;
+}
+
+.page-title-divider {
+    border-top: 1.5px solid #3C3C3C;
+    margin: 0;
+}
