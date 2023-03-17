@@ -1,20 +1,20 @@
 .about-tedx-page{
-    font-size: 20px;
+    font-size: 25px;
 }
 
-.tedRedLogo{
+.about-tedx-ted-red-logo{
    width:100%;
 
 }
 
-.tedImgPlaceholder{
+.about-tedx-tedImgPlaceholder{
     border: 1px solid #454545;
     background-color: pink;
     width: 400px;
     height: 250px;
 }
 
-.tedXUofWImgPlaceholder{
+.about-tedx-tedXUofWImgPlaceholder{
     border: 1px solid #454545;
     background-color: pink;
     width: 400px;
@@ -22,12 +22,12 @@
     margin-bottom: 75px;
 }
 
-.tedXUofWHeader{
-    color: #FBFBFB;
-    font-size:30px;
+.about-tedx-tedXUofWHeader{
+    color: var(--text-color);
+    font-size: 30px;
     margin-bottom: 25px;
 }
 
-.tedXRow{
+.about-tedx-tedXRow{
     margin-bottom: 150px;
 }
