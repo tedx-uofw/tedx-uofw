@@ -1,33 +1,93 @@
 import React from 'react';
 import './landing.css';
-
+import redX from '../assets/redCrop.png';
+import tedContent from '../assets/MaskGroup.png';
+import kaneHall from '../assets/KaneHall.png'
 //import instagramlogo from '../assets/instagram-logo.svg';
 
 
 function Landing(props){
     return (
-        <div>
-        <div class = "row">
-            <div className ="col-xs-6 col-sm-6 col-lg-6 col-md-6">
-                <div className = "">
-                    <p className="">SEEING ———</p>
-                    <p className="">THE INVISIBLE</p>
-                </div>
+        <div className = "grid">
+            <div className = "row">
+                <div className =" top col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                    <div>
+                        <h1 className = "title">SEEING</h1>
+                        <h1 className = "title">THE</h1>
+                        <h1 className = "title">INVISIBLE</h1>
+                    </div>
+                    
                     <div className = "content">
                         <p>04.22.2023</p>
                         <p>5:00 PM @Kane Hall</p>
-                        <button>Get Tickets</button>
+                        
+                        <a href = "https://www.figma.com/file/mAtYF9aYrvL7hwlTJGj1v5/TEDxUofW-Design?node-id=1-10&t=CPSZdVgr96yOVxjt-0"><button className = "button">Get Tickets</button></a>
                     </div>
+                </div>
+           
+            
+                <div className = "col-xs-6 col-sm-6 col-lg-6 col-md 6">
+                    <img className = "image" src = {redX} alt = "TEDx Logo"></img>
+                </div>
+        
             </div>
-            <div className = "col-xs-6 col-sm-6 col-lg-6 col-md-6">
-                <p>PICTURE</p>
+            <div className = "row mt-60">
+                <div className="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                    <h1>About TEDx</h1>
+                    <p>TEDxUofW is established to bring<br></br>inspirational and informative TED style<br></br>talks to the University of Washington.</p>
+                </div>
+                <div className="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                    <img className = "tedContent" src  ={tedContent} alt= "ted"></img>
+                </div>
             </div>
 
-        </div>
-        <div class = "row">
-            
+            <div className = "row mt-60">
+                <div className="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                    <h1>Seeing the Invisible</h1>
+                </div>
+                <div className="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                    <p className = "seeingContent">The theme “Seeing the Invisible” places the
+                        spotlight on ideas, experiences, and passions that
+                        are not typically noticed in our daily lives or
+                        recognized by the majority of society.
+                        <br></br><br></br>
+                        Through surrounding this year's TEDxUofW
+                        conference around this theme, we hope to
+                        illuminate some of the beautiful accomplishments
+                        and perspectives our community and the world may
+                        not have realized before.</p>
+                </div>
+
+                
             </div>
+
+            <div className = "row mt-60">
+                <div className="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                    <h1>The Venue</h1>
+                </div>
+            </div>
+            
+            <img className = "KaneImage" src = {kaneHall} alt="Kane Hall"></img>
+            <div className = "row mt-20">
+                <div className="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                    <p className = "seeingVenue">Our venue for this year's conference will be Kane Hall,
+                        which houses an auditorium style room that
+                        can seat up to 700 people. This room has the
+                        technological capability to record high quality
+                        video and audio of the stage.<br></br><br></br>
+                        Kane Hall is also in a centralized location on
+                        campus, providing easy access to our intended
+                        audience. Additionally, the venue provides
+                        adequate accommodations for those in need of
+                        wheelchair seating or closed captions.
+                    </p>
+                </div>
+                
+            </div>
+        
         </div>
+        
+    
     )
 }
 export default Landing;
