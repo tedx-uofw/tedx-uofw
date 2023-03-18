@@ -1,7 +1,7 @@
 import React from 'react';
-import Footer from "./components/footer";
+import Footer from "./components/footer/footer";
 import TedRoutes from "./ted_routes"
-import TedNavBar from './components/ted_navbar'
+import TedNavBar from './components/ted_navbar/ted_navbar'
 
 import './app.css'
 import 'bootstrap/dist/css/bootstrap.css';
