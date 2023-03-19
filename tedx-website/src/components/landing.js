@@ -8,36 +8,38 @@ import kaneHall from '../assets/KaneHall.png'
 
 function Landing(props){
     return (
-        <div className = "grid">
+        <div className = "grid page-container">
             <div className = "row">
-                <div className =" top col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                <div className = "col-xs-6 col-sm-6 col-lg-6 col-md-6">
                     <div>
-                        <h1 className = "title">SEEING</h1>
-                        <h1 className = "title">THE</h1>
-                        <h1 className = "title">INVISIBLE</h1>
+                        <h1 className = "landing-title">SEEING</h1>
+                        <h1 className = "landing-title">THE</h1>
+                        <h1 className = "landing-title">INVISIBLE</h1>
                     </div>
                     
-                    <div className = "content">
+                    <div className = "landing-eventContent">
                         <p>04.22.2023</p>
                         <p>5:00 PM @Kane Hall</p>
                         
-                        <a href = "https://www.figma.com/file/mAtYF9aYrvL7hwlTJGj1v5/TEDxUofW-Design?node-id=1-10&t=CPSZdVgr96yOVxjt-0"><button className = "button">Get Tickets</button></a>
+                        <a href = "https://linktr.ee/tedxuofw22" target = "blank"><button className = "landing-buyTickets-button">Get Tickets</button></a>
                     </div>
                 </div>
            
             
                 <div className = "col-xs-6 col-sm-6 col-lg-6 col-md 6">
-                    <img className = "image" src = {redX} alt = "TEDx Logo"></img>
+                    <img className = "landing-redX-image" src = {redX} alt = "Red X of TEDx Organization"></img>
                 </div>
         
             </div>
             <div className = "row mt-60">
                 <div className="col-xs-6 col-sm-6 col-lg-6 col-md-6">
                     <h1>About TEDx</h1>
-                    <p>TEDxUofW is established to bring<br></br>inspirational and informative TED style<br></br>talks to the University of Washington.</p>
+                    <p>TEDxUofW is established to bring<br></br>
+                        inspirational and informative TED style<br></br>
+                        talks to the University of Washington.</p>
                 </div>
                 <div className="col-xs-6 col-sm-6 col-lg-6 col-md-6">
-                    <img className = "tedContent" src  ={tedContent} alt= "ted"></img>
+                    <img className = "landing-brand-image" src  ={tedContent} alt= "TEDx Brand"></img>
                 </div>
             </div>
 
@@ -46,7 +48,7 @@ function Landing(props){
                     <h1>Seeing the Invisible</h1>
                 </div>
                 <div className="col-xs-6 col-sm-6 col-lg-6 col-md-6">
-                    <p className = "seeingContent">The theme “Seeing the Invisible” places the
+                    <p className = "landing-theme-content">The theme “Seeing the Invisible” places the
                         spotlight on ideas, experiences, and passions that
                         are not typically noticed in our daily lives or
                         recognized by the majority of society.
@@ -67,10 +69,10 @@ function Landing(props){
                 </div>
             </div>
             
-            <img className = "KaneImage" src = {kaneHall} alt="Kane Hall"></img>
+            <img className = "landing-kaneHall-image" src = {kaneHall} alt="Kane Hall"></img>
             <div className = "row mt-20">
                 <div className="col-xs-6 col-sm-6 col-lg-6 col-md-6">
-                    <p className = "seeingVenue">Our venue for this year's conference will be Kane Hall,
+                    <p className = "landing-venue-content">Our venue for this year's conference will be Kane Hall,
                         which houses an auditorium style room that
                         can seat up to 700 people. This room has the
                         technological capability to record high quality

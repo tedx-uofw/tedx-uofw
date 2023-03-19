@@ -1,119 +1,63 @@
 
-  html {
-    /* set background color */
-    background-color: black;
+  .landing-title{
+    font-size: calc(2.3rem + 1.5vw);
   }
-  body{
-    background-color: transparent !important;
-    max-width: 100%;
-    overflow-x: hidden !important;
-  }
-  .grid{
-    margin-left: 10vh;   
-    margin-right: 10vh;
-  }
-  
-  .title{
-    font-size: 5vw;
-    color: white;
-  }
-  
   h1{
-    color: white
+    color: var(--text-color);
   }
-  .top{
-    max-width: 100%;
+  p{
+    font-size: calc(1.0rem + 0.3vw);
   }
-  .content{
-    font-size: 2vw;
+
+  .landing-eventContent{
+    font-size: calc(2.0rem + 0.3vw);
     line-height: 80%;   
     margin-top: 10%;
   }
-  .button{
+  
+  .landing-buyTickets-button{
     margin-top: 20px;
-    max-width: 50%;
+    font-size: calc(1.5rem + 0.3vw);
     background-color: black;
-    color: white;
+    color: var(--text-color);
     border-color:red;
     padding: 15px;
     border-radius: 5px;
     
   }
-
+  .landing-redX-image{
+    max-width: 100%;
+  }
   .row{
     margin-top: 90px !important;
     display: flex;
     flex-wrap: wrap;
   }
-
-  .image{
-    max-width: 100%;
-  }
-  .KaneImage{
+  
+  
+  .landing-kaneHall-image{
     max-width: 100%;
     margin-top: 3vh;
     
   }
 
-  .tedContent{
-    border: 1px solid white;
-    padding: 5vh;
+  .landing-brand-image{
     max-width: 100%;
+    border: 1px solid var(--text-color);
+    padding: 5vh;
     border-radius: 1vh;
   }
 
-  .seeingContent{
+  .landing-theme-content{
     max-width: 70%;
-  }
-  .seeingVenue{
+  } 
+  .landing-venue-content{
     max-width: 70%;
   }
 
-  @media (max-width: 915px) {
-    .seeingContent{
-      max-width: 100%;
-    }
-    .seeingVenue{
-      max-width: 100%;
-    }
-    .grid{
-      margin-left: 6vh;
-      margin-right: 6vh
-    }
-    .title{
-      font-size: 5vh;
-    }
-    .content{
-      font-size: 3vh;
-    }
-  }
+ 
   @media (max-width: 411px) {    
-    .title{
-      font-size: 9vw;
-      color: white;
-    }
-    .seeingContent{
-      max-width: 80%;
-    }
-    .seeingVenue{
-      max-width: 80%;
-    }
-    .content{
-      font-size: 5vw;
-    }
-    .grid{
-
-      width: 100%;
-    }
-    .tedContent{
-      max-width: 80%;
-    }
     .row{
       margin-top: 50px !important;
-    }
-    
-    .image{
-      margin-top: 20px;
-      width: 80%;
     }
   }
