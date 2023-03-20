@@ -3,35 +3,28 @@ import './landing.css';
 import redX from '../assets/redCrop.png';
 import tedContent from '../assets/MaskGroup.png';
 import kaneHall from '../assets/KaneHall.png'
-//import instagramlogo from '../assets/instagram-logo.svg';
-
 
 function Landing(props){
     return (
-        <div className = "grid page-container">
-            <div className = "row">
+        <div className = "landing-container grid page-container">
+            <div className = "landing-event-info-container row">
                 <div className = "col-xs-6 col-sm-6 col-lg-6 col-md-6">
                     <div>
                         <h1 className = "landing-title">SEEING</h1>
                         <h1 className = "landing-title">THE</h1>
                         <h1 className = "landing-title">INVISIBLE</h1>
                     </div>
-                    
                     <div className = "landing-eventContent">
                         <p>04.22.2023</p>
-                        <p>5:00 PM @Kane Hall</p>
-                        
+                        <p>5:00 PM @ Kane Hall</p>
                         <a href = "https://linktr.ee/tedxuofw22" target = "blank"><button className = "landing-buyTickets-button">Get Tickets</button></a>
                     </div>
                 </div>
-           
-            
                 <div className = "col-xs-6 col-sm-6 col-lg-6 col-md 6">
                     <img className = "landing-redX-image" src = {redX} alt = "Red X of TEDx Organization"></img>
                 </div>
-        
             </div>
-            <div className = "row mt-60">
+            <div className = "landing-about-tedx-container row mt-60">
                 <div className="col-xs-6 col-sm-6 col-lg-6 col-md-6">
                     <h1>About TEDx</h1>
                     <p>TEDxUofW is established to bring<br></br>
@@ -42,8 +35,7 @@ function Landing(props){
                     <img className = "landing-brand-image" src  ={tedContent} alt= "TEDx Brand"></img>
                 </div>
             </div>
-
-            <div className = "row mt-60">
+            <div className = "landing-seeing-the-invisible-container row mt-60">
                 <div className="col-xs-6 col-sm-6 col-lg-6 col-md-6">
                     <h1>Seeing the Invisible</h1>
                 </div>
@@ -58,38 +50,30 @@ function Landing(props){
                         illuminate some of the beautiful accomplishments
                         and perspectives our community and the world may
                         not have realized before.</p>
-                </div>
-
-                
+                </div>            
             </div>
-
-            <div className = "row mt-60">
+            <div className = "landing-venue-container row mt-60">
                 <div className="col-xs-6 col-sm-6 col-lg-6 col-md-6">
                     <h1>The Venue</h1>
                 </div>
-            </div>
-            
-            <img className = "landing-kaneHall-image" src = {kaneHall} alt="Kane Hall"></img>
-            <div className = "row mt-20">
-                <div className="col-xs-6 col-sm-6 col-lg-6 col-md-6">
-                    <p className = "landing-venue-content">Our venue for this year's conference will be Kane Hall,
-                        which houses an auditorium style room that
-                        can seat up to 700 people. This room has the
-                        technological capability to record high quality
-                        video and audio of the stage.<br></br><br></br>
-                        Kane Hall is also in a centralized location on
-                        campus, providing easy access to our intended
-                        audience. Additionally, the venue provides
-                        adequate accommodations for those in need of
-                        wheelchair seating or closed captions.
-                    </p>
+                <img className = "landing-kaneHall-image" src = {kaneHall} alt="Kane Hall"></img>
+                <div className = "row mt-20">
+                    <div className="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                        <p className = "landing-venue-content">Our venue for this year's conference will be Kane Hall,
+                            which houses an auditorium style room that
+                            can seat up to 700 people. This room has the
+                            technological capability to record high quality
+                            video and audio of the stage.<br></br><br></br>
+                            Kane Hall is also in a centralized location on
+                            campus, providing easy access to our intended
+                            audience. Additionally, the venue provides
+                            adequate accommodations for those in need of
+                            wheelchair seating or closed captions.
+                        </p>
+                    </div>       
                 </div>
-                
             </div>
-        
         </div>
-        
-    
     )
 }
 export default Landing;
