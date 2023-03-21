@@ -1,47 +1,25 @@
-import dummySponsor from "../assets/dummy-sponsor.png"
-import dummySponsor2 from "../assets/dummy-sponsor-2.png"
+import UWAlumAssociation from "../assets/sponsor-photos/uw-alum-association.jpeg"
+import HUB from "../assets/sponsor-photos/hub.png"
+import SocietyApp from "../assets/sponsor-photos/society-app.png"
+import Standard from "../assets/sponsor-photos/standard.png"
 
 const data =
 [
     {
-        altText: "Sponsor1",
-        img: dummySponsor
+        altText: "University of Washington Alumni Association logo",
+        img: UWAlumAssociation
     },
     {
-        altText: "Sponsor2",
-        img: dummySponsor2
+        altText: "Husky Union Building logo",
+        img: HUB
     },
     {
-        altText: "Sponsor3",
-        img: dummySponsor
+        altText: "Society App logo",
+        img: SocietyApp
     },
     {
-        altText: "Sponsor4",
-        img: dummySponsor
+        altText: "Standard logo",
+        img: Standard
     },
-    {
-        altText: "Sponsor5",
-        img: dummySponsor
-    },
-    {
-        altText: "Sponsor6",
-        img: dummySponsor
-    },
-    {
-        altText: "Sponsor7",
-        img: dummySponsor
-    },
-    {
-        altText: "Sponsor8",
-        img: dummySponsor
-    },
-    {
-        altText: "Sponsor9",
-        img: dummySponsor
-    },
-    {
-        altText: "Sponsor10",
-        img: dummySponsor
-    }
 ]
 export default data;
