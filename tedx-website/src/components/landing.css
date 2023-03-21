@@ -19,13 +19,21 @@
 }
 
 .landing-eventContent p {
-  margin: 0;
+  margin: 4px 0 0;
   font-size: calc(1rem + 0.7vw);
   letter-spacing: 0.02em;
 }
 
+.landing-kane-hall-text {
+  color: var(--text-color);
+}
+
+.landing-kane-hall-text:hover {
+  color: var(--ted-red-color);
+}
+
 .landing-buyTickets-button {
-  margin-top: 12%;
+  margin-top: 4.5vh;
   font-size: calc(1rem + 0.7vw);
   background-color: var(--background-color);
   color: var(--text-color);
@@ -35,19 +43,25 @@
   border-radius: 5px;
 }
 
+.landing-redX-image-container {
+  position: relative;
+}
+
 .landing-redX-image {
   max-width: 100%;
 }
 
 .landing-event-info-container {
   margin-top: 60px !important;
+  display: flex;
+  flex-direction: row;
 }
 
 .landing-about-tedx-container,
 .landing-seeing-the-invisible-container,
 .landing-venue-container,
 .landing-venue-container {
-  margin-top: 100px !important;
+  margin-top: 80px !important;
 }
 
 .row {
@@ -62,7 +76,7 @@
 .landing-brand-image {
   max-width: 100%;
   border: 1px solid #454545;
-  padding: 5vh;
+  padding: 6vw 8vw;
   border-radius: 1vh;
 }
 
@@ -75,22 +89,28 @@
   margin-top: 30px !important;
 }
 
+@media (max-width: 575px) {
+  .landing-brand-image {
+    margin-top: 10px;
+  }
+
+  .landing-redX-image {
+    display: none;
+  }
+}
+
 @media (max-width: 425px) {
   .landing-event-info-container {
     margin-top: 30px !important;
   }
 
   .landing-about-tedx-container {
-    margin-top: 70px !important;
+    margin-top: 7vh !important;
   }
 
   .landing-seeing-the-invisible-container,
   .landing-venue-container,
   .landing-venue-container {
     margin-top: 50px !important;
-  }
-
-  .landing-redX-image {
-    display: none;
   }
 }

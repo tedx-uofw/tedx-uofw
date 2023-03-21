@@ -7,8 +7,8 @@ import kaneHall from '../assets/KaneHall.png'
 function Landing(props){
     return (
         <div className = "landing-container grid page-container">
-            <div className = "landing-event-info-container row">
-                <div className = "col-xs-6 col-sm-6 col-lg-6 col-md-6">
+            <div className = "landing-event-info-container">
+                <div>
                     <div>
                         <h1 className = "landing-title">SEEING</h1>
                         <h1 className = "landing-title">THE</h1>
@@ -16,11 +16,11 @@ function Landing(props){
                     </div>
                     <div className = "landing-eventContent">
                         <p>04.22.2023</p>
-                        <p>5:00 PM @ Kane Hall</p>
+                        <p>5:00 PM @ <a className="landing-kane-hall-text" href="https://goo.gl/maps/nGRm4o1LVxASLjPE7" target = "blank">Kane Hall</a></p>
                         <a href = "https://linktr.ee/tedxuofw22" target = "blank"><button className = "landing-buyTickets-button">Get Tickets</button></a>
                     </div>
                 </div>
-                <div className = "col-xs-6 col-sm-6 col-lg-6 col-md 6">
+                <div className = "landing-redX-image-container">
                     <img className = "landing-redX-image" src = {redX} alt = "Red X of TEDx Organization"></img>
                 </div>
             </div>
