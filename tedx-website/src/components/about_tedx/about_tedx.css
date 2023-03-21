@@ -37,6 +37,16 @@
     margin-top: 25px;
 }
 
-.about-tedx-team-photo{
-    margin-bottom: 25px;
+
+
+
+
+
+
+@media all and (max-width: 991px) {
+    .about-tedx-tedx-official-logo.img-fluid {
+        height: 80%;
+        width:55%;
+
+    }
 }

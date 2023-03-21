@@ -18,14 +18,14 @@ function AboutTedX(props) {
                     <p>The two annual TED conferences invite the world's leading thinkers and doers to Vancouver, British Columbia to speak for 18 minutes or less.</p>
                 </Col>
                 <Col lg={{ span: 4, offset: 1 }}>
-                    <Image className='img-fluid' src={TedOfficialLogo} alt="TEDx official logo"></Image>
+                    <Image className='about-tedx-tedx-official-logo img-fluid' src={TedOfficialLogo} alt="TEDx official logo"></Image>
                 </Col>
             </Row>
-            <Row className="about-tedx-tedXUofWInfo">
-                <Col lg="4">
-                <Image className='img-fluid' src={TeamPhoto} alt="TEDx U of W team"></Image>
+            <Row className="about-tedx-tedXUofWInfo align-items-center">
+                <Col lg ="4">
+                <Image className='about-tedx-team-photo img-fluid' src={TeamPhoto} alt="TEDx U of W team"></Image>
                 </Col>
-                <Col lg={{ span: 6, offset: 2 }} >
+                <Col lg={{ span: 6, offset: 1 }} >
                     <h1 className='about-tedx-tedXUofWHeader'>TEDxUofW</h1>
                     <p>TEDxUofW is established to bring inspirational and informative TED style talks to the University of Washington. Since 2012, our organization has sought to give amazing speakers a receptive audience to share their passions with. </p>
                     <p>Its annual conference is made possible by a team of creative and hardworking undergraduate students. Our all student-run organization has put on a sold-out event for four years in a row, gathering a collection of great creative thinkers, scientific minds, community leaders, and much more.</p>
