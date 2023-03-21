@@ -26,7 +26,7 @@
 }
 
 .nav-link {
-    margin-left: 20px !important;
+    margin-right: 20px !important;
 }
 
 .nav-link,
@@ -41,6 +41,10 @@
     .nav-link {
         margin-left: 0px !important;
     }
+
+    .btn-custom {
+        margin-top: 8px !important;
+    }
 }
 
 .dropdown-toggle::after {
@@ -48,7 +52,8 @@
 }
 
 .btn-custom {
-    margin-left: 20px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
     --bs-btn-border-color: var(--ted-red-color) !important;
     --bs-btn-color: var(--text-color) !important;
     --bs-btn-hover-color: var(--text-color);

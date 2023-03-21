@@ -1,4 +1,4 @@
-import { Container, Nav, Navbar, NavDropdown }from 'react-bootstrap';
+import { Container, Nav, Navbar, NavDropdown, Button }from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -35,6 +35,7 @@ function TedNavBar() {
             <Nav.Link as={Link} to="/sponsors" onClick={() => setExpanded(false)}>
                 Sponsors
             </Nav.Link>
+            <Button href="https://linktr.ee/tedxuofw22" target="_blank" variant="custom">Get Tickets</Button>
           </Nav>
         </Navbar.Collapse>
       </Container>
