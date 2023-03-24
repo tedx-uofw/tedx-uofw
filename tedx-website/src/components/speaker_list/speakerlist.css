@@ -1,13 +1,13 @@
 .speakers-page-container {
     margin-bottom: 20px;
     background: #0C0C0C;
+    gap: 30px;
 }
 
-/* .speakers-divider {
+.speakers-divider {
     background:
         repeating-linear-gradient(90deg, #3C3C3C 0 4px, #0000 0 8px);
     height: 1.3px;
     margin: 0px 0px 20px;
-    gap: 30px;
 
-} */
+}
