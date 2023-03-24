@@ -1,3 +1,7 @@
+.landing-container p {
+  margin: 0;
+}
+
 .landing-title {
   font-size: calc(3rem + 2vw);
   margin-bottom: 0 !important;
@@ -61,7 +65,7 @@
 .landing-seeing-the-invisible-container,
 .landing-venue-container,
 .landing-venue-container {
-  margin-top: 80px !important;
+  margin-top: 3.5rem !important;
 }
 
 .row {
@@ -89,13 +93,15 @@
   margin-top: 30px !important;
 }
 
-@media (max-width: 575px) {
-  .landing-brand-image {
-    margin-top: 10px;
-  }
-
+@media (max-width: 768px) {
   .landing-redX-image {
     display: none;
+  }
+}
+
+@media (max-width: 575px) {
+  .landing-brand-image {
+    margin-top: 15px;
   }
 }
 

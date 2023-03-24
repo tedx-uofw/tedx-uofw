@@ -10,9 +10,7 @@ function Landing(props){
             <div className = "landing-event-info-container">
                 <div>
                     <div>
-                        <h1 className = "landing-title">SEEING</h1>
-                        <h1 className = "landing-title">THE</h1>
-                        <h1 className = "landing-title">INVISIBLE</h1>
+                        <h1 className = "landing-title">SEEING THE INVISIBLE</h1>
                     </div>
                     <div className = "landing-eventContent">
                         <p>04.22.2023</p>
