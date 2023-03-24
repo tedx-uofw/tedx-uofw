@@ -1,3 +1,13 @@
+.row>* {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
 .about-tedx-page {
     font-size: calc(0.85rem + 0.8vw)
 }
@@ -7,21 +17,6 @@
     position: relative;
     right: 40px;
     margin-top: 30px;
-}
-
-.about-tedx-tedImgPlaceholder {
-    border: 1px solid #454545;
-    background-color: pink;
-    width: 400px;
-    height: 250px;
-}
-
-.about-tedx-tedXUofWImgPlaceholder {
-    border: 1px solid #454545;
-    background-color: pink;
-    width: 400px;
-    height: 350px;
-    margin-bottom: 75px;
 }
 
 .about-tedx-tedXUofWHeader {
