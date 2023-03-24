@@ -1,0 +1,30 @@
+.speaker-img {
+    aspect-ratio: 1 / 1;
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+    border-radius: 12px;
+}
+
+.speaker-description {
+    width: 598px;
+    margin-top: 0;
+    margin-left: 800px;
+}
+
+.speaker-name,
+.speaker-position {
+    width: 230px;
+    float: left;
+    font-size: var(--paragraph-text-size);
+    margin-bottom: 10px !important;
+}
+
+
+@media (max-width: 768px) {
+    .speaker-img,
+    .speaker-name,
+    .speaker-position {
+        width: 100%;
+    }
+}
