@@ -10,7 +10,7 @@ const data =
     {
         img: susieSharpe,
         name: "Susie Sharpe",
-        position: "Co-Founder, Co-CEO",
+        position: "Artist & Internal Medicine Physician",
         description: <p>
             Dr. Susie Sharpe is a first-generation immigrant from Korea who overcame language, cultural 
             and economic barriers and achieved her implausible dreams. She first became a Yale-trained 
@@ -23,7 +23,7 @@ const data =
     {
         img: nathanKutz,
         name: "Nathan Kutz",
-        position: "Co-Founder, Co-CEO",
+        position: "Director of NSF AI Institute in Dynamic Systems, UW Adjunct Professor of Mechanical Engineering, Electrical Engineering, and Physics",
         description: <p>
             Nathan Kutz is the Yasuko Endo and Robert Bolles Professor of Applied Mathematics and Electrical 
             and Computer Engineering and Director of the AI Institute in Dynamic Systems at the University of 
@@ -38,7 +38,7 @@ const data =
     {
         img: mattCrevin,
         name: "Matt Crevin",
-        position: "Co-Founder, Co-CEO",
+        position: "Founder of Talk Shop",
         description: <p>
             Matt Crevin, Founder of Talk Shop supports today’s students to communicate clearly and confidently, 
             regardless of the situation or setting. Combining his real-world business background that includes two 
@@ -50,7 +50,7 @@ const data =
     {
         img: christianMurphy,
         name: "Christian Murphy",
-        position: "Co-Founder, Co-CEO",
+        position: "CEO of Eachday Inc.",
         description: <p>
             CEO of Eachday Inc. a medical device company founded by UC Berkeley and Carnegie Mellon University alumni 
             who build technology to help adults with ADHD improve their life outcomes. Prior to founding Eachday 
@@ -61,7 +61,7 @@ const data =
     {
         img: patriciaAllen,
         name: "Patricia Allen",
-        position: "Co-Founder, Co-CEO",
+        position: "Civil Rights Chair & Elected Delegate for Tlingit & Haida Tribes of Southeast Alaska",
         description: <p>
             Patricia Allen, the Matriarchal Scholar, is building with Gathering Roots BIPoC Wellness & Retreat Center as 
             the Community Engagement Manager and a Transformative Circle leader; she is also currently serving as the Civil 

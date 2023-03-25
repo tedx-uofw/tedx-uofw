@@ -9,6 +9,7 @@ function SpeakerList() {
 
     return (
         <div className="speakers-page-container">
+          <div className="speakers-header">
             <PageTitle title="Speakers"/>
             <div className="speakers-divider">
               {speakers.map(speaker => (
@@ -20,6 +21,7 @@ function SpeakerList() {
                   description={speaker.description}
                 />
               ))}
+            </div>
             </div>
         </div>
       );
