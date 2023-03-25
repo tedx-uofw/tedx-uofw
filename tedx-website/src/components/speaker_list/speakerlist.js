@@ -8,10 +8,9 @@ function SpeakerList() {
     const speakers = speakersData;
 
     return (
-        <div className="speakers-page-container">
+        <div className="speakers-page-container page-container">
           <div className="speakers-header">
             <PageTitle title="Speakers"/>
-            <div className="speakers-divider">
               {speakers.map(speaker => (
                 <Speaker
                   key={speaker.id}
@@ -21,7 +20,6 @@ function SpeakerList() {
                   description={speaker.description}
                 />
               ))}
-            </div>
             </div>
         </div>
       );

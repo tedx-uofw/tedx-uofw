@@ -1,21 +1,5 @@
 .speakers-page-container {
     display: flex;
-    justify-content: flex-start;
-    margin-bottom: 20px;
-    background: #0C0C0C;
     gap: 30px;
-}
-
-.speakers-header {
-    color: var(--text-color);
-    font-weight: normal;
     font-size: 32px;
-    margin-bottom: 25px;
-}
-
-.speakers-divider {
-    background:
-    repeating-linear-gradient(90deg, #3C3C3C 0 4px, #0000 0 8px);
-    height: 1.3px;
-    margin-bottom: 50px;
 }
