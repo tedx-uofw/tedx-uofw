@@ -18,7 +18,7 @@
     flex-direction: row;
     margin-top: 25px;
     margin-bottom: 25px;
-    gap: 50px;
+    gap: 4vw;
     justify-content: space-between;
 
 }
@@ -51,6 +51,7 @@
 
 
 @media (max-width: 962px) {
+
     .speaker-content,
     .speaker-profile,
     .speaker-name,
@@ -58,5 +59,9 @@
     .speaker-description {
         width: 100%;
         flex-direction: column;
+    }
+
+    .speaker-content {
+        gap: 0.8vh;
     }
 }
