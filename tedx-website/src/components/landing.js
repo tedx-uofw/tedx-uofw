@@ -14,7 +14,7 @@ function Landing(props){
                     </div>
                     <div className = "landing-eventContent">
                         <p>04.22.2023</p>
-                        <p>5:00 PM @ <a className="landing-kane-hall-text" href="https://goo.gl/maps/nGRm4o1LVxASLjPE7" target = "blank">Kane Hall</a></p>
+                        <p>9 AM - 4 PM @ <a className="landing-kane-hall-text" href="https://goo.gl/maps/nGRm4o1LVxASLjPE7" target = "blank">Kane Hall</a></p>
                         <a href = "https://linktr.ee/tedxuofw22" target = "blank"><button className = "landing-buyTickets-button">Get Tickets</button></a>
                     </div>
                 </div>
