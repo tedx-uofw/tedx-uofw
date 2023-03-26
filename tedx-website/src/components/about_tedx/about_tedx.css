@@ -28,6 +28,10 @@
     margin-bottom: 150px;
 }
 
+.right-col {
+    margin-left: 8.33333333%;
+}
+
 @media all and (max-width: 991px) {
     .about-tedx-team-photo {
         margin-bottom: 30px;
@@ -40,6 +44,10 @@
     .about-tedx-tedxuofw-red-logo,
     .about-tedx-tedx-official-logo-container {
         display: none !important;
+    }
+
+    .right-col {
+        margin-left: 0;
     }
 }
 
