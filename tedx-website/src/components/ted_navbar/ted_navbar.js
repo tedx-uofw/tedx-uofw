@@ -24,8 +24,6 @@ function TedNavBar() {
           <img
             id="tedx-logo"
             src={tedx_logo}
-            width="100%"
-            height="30vw"
             className="d-inline-block align-top"
             alt="TEDxUofW Logo"
           />
