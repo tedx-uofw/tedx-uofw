@@ -9,7 +9,7 @@ const data =
         img: hansonPhoto
     },
     {
-        name: "Nishtha Agarwalr",
+        name: "Nishtha Agarwal",
         major: "Informatics Major",
         img: nishtaPhoto
     }
