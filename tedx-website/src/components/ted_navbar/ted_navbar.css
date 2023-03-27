@@ -2,6 +2,10 @@
     padding: var(--navbar-footer-top-bottom-padding-size) var(--right-left-padding-size) !important;
 }
 
+#tedx-logo {
+    height: 1.5em;
+}
+
 @media (min-width: 0px) {
 
     .container-xxl,

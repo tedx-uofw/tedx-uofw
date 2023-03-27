@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     column-gap: 10vw;
-    row-gap: 5vh;
+    row-gap: 8vh;
 
     /* align images vertically center */
     align-items: center;
