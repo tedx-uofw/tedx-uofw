@@ -11,11 +11,6 @@ const data =
         img: derekPhoto
     },
     {
-        name: "Jalisa Bass",
-        major: "Industrial & Systems Engineering Major",
-        img: jalisaPhoto
-    },
-    {
         name: "Kata Kodama",
         major: "Global and Regional Studies Major",
         img: katePhoto
