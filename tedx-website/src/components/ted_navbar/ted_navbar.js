@@ -10,9 +10,6 @@ function TedNavBar() {
   const [expanded, setExpanded] = useState(false);
 
   /*
-  <Nav.Link as={Link} to="/speakers" onClick={() => setExpanded(false)}>
-    Speakers
-  </Nav.Link>
   <Nav.Link as={Link} to="/sponsors" onClick={() => setExpanded(false)}>
     Sponsors
   </Nav.Link>
@@ -31,6 +28,9 @@ function TedNavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(expanded ? false : "expanded")}/>
         <Navbar.Collapse>
           <Nav className="ms-auto">
+            <Nav.Link as={Link} to="/speakers" onClick={() => setExpanded(false)}>
+              Speakers
+            </Nav.Link>
             <NavDropdown title="About">
               <NavDropdown.Item as={Link} to="/about-tedx" onClick={() => setExpanded(false)}>About TEDx</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/meet-the-team" onClick={() => setExpanded(false)}>Meet the Team</NavDropdown.Item>
