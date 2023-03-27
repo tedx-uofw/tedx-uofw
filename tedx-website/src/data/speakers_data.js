@@ -3,7 +3,8 @@ import mattCrevin from "../assets/speaker-photos/mattCrevin.png"
 import nathanKutz from "../assets/speaker-photos/nathanKutz.png"
 import patriciaAllen from "../assets/speaker-photos/patriciaAllen.png"
 import susieSharpe from "../assets/speaker-photos/susieSharpe.png"
-
+import poojaTandon from "../assets/speaker-photos/PoojaTandon.jpeg"
+import nazilaSawhney from "../assets/speaker-photos/NazilaSawhney.jpeg"
 
 const data =
 [
@@ -56,6 +57,31 @@ const data =
             who build technology to help adults with ADHD improve their life outcomes. Prior to founding Eachday 
             Christian worked at the Google Creative Lab and Deloitte's Strategy & Analytics program. He is passionate 
             about hardware, game design and revolutionizing the future of healthcare using data.
+        </p>
+    },
+    {
+        img: poojaTandon,
+        name: "Pooja Tandon",
+        position: "General Pediatric Physician & PI at Seattle Children’s Hospital",
+        description: <p>
+            Dr. Pooja Sarin Tandon is a general pediatrician and researcher dedicated to play equity, 
+            promoting access to physical activity, outdoor recreation, and play for all children to optimize their health and well-being. 
+            Dr. Tandon attended Brown University for undergraduate and medical school, and the University of Washington for a Master of 
+            Public Health degree. She is an Associate Professor of Pediatrics at the University of Washington and researcher at the Seattle 
+            Children’s Research Institute. She has authored numerous research articles on children’s physical activity, nature contact, 
+            and health, and has been featured on various media outlets including Good Morning America, NPR, and CBS.
+        </p>
+    },
+    {
+        img: nazilaSawhney,
+        name: "Nazila Sawhney",
+        position: "Fashion Designer & Founder of Untold Stories",
+        description: <p>
+            Nazlia Sawhney is an Afghan fashion designer, author and the founder of a non-profit organization (Untold Stories Foundation inc.) 
+            Nazila is passionate about changing the narrative around refugees, especially Afghan refugees. Her story draws on our ability 
+            as human beings to redesign our minds to adapt to challenging  and unfamiliar environments to survive. Her life comes to a 
+            full circle of compassion when she reconnects to her roots living thousands of miles away. Her foundation helps support 
+            families in Afghanistan through poverty as a result of the ongoing war, and her mission to help newly arrived refugees in her city.
         </p>
     },
     {
