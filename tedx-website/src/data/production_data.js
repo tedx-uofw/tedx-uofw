@@ -1,5 +1,5 @@
 import derekPhoto from "../assets/teamPhotos/derekWImg.png"
-import jalisaPhoto from "../assets/teamPhotos/jalisaBImg.png"
+// import jalisaPhoto from "../assets/teamPhotos/jalisaBImg.png"  -- Caused error as variable was never used in code; thus commented out
 import katePhoto from "../assets/teamPhotos/kateKImg.png"
 import trevorPhoto from "../assets/teamPhotos/trevorCImg.png"
 
