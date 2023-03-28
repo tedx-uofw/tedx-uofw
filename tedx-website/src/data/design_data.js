@@ -8,13 +8,13 @@ import henryPhoto from "../assets/teamPhotos/henryMImg.png"
 const data =
 [
     {
-        name: "Sparsha Reddy Kosha",
+        name: "Sparsha Reddy Kotha",
         major: "Architecture Major",
         img: sparshaPhoto
     },
     {
         name: "Elva Chen",
-        major: "Interation Design Major",
+        major: "Interaction Design Major",
         img: elvaPhoto
     },
     {
