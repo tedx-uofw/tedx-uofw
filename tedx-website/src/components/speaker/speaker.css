@@ -36,7 +36,11 @@
     display: inline;
 }
 
-.speaker-name,
+.speaker-name {
+    font-size: 26px;
+}
+
+
 .speaker-position {
     font-size: var(--paragraph-text-size);
     margin-bottom: 10px !important;
