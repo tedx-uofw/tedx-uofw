@@ -7,11 +7,11 @@ const data =
 [
     {
         name: "Derek Wei",
-        major: "Community, Enviornment, and Planning (CEP) Major",
+        major: "Community, Environment, and Planning (CEP) Major",
         img: derekPhoto
     },
     {
-        name: "Kata Kodama",
+        name: "Kate Kodama",
         major: "Global and Regional Studies Major",
         img: katePhoto
     },

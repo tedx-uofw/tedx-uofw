@@ -6,7 +6,7 @@ import celinaPhoto from "../assets/teamPhotos/celinaHImg.png"
 const data =
 [
     {
-        name: "Katheine Wu",
+        name: "Katherine Wu",
         major: "Business Major",
         img: katherinePhoto
     },
@@ -17,12 +17,12 @@ const data =
     },
     {
         name: "Alexa Trinidad",
-        major: "Business Marketing Major",
+        major: "Business Major",
         img: alexaPhoto
     },
     {
-        name: "Celina Ha Kim",
-        major: "Business Administration Major",
+        name: "Celina Kim",
+        major: "Marketing Major",
         img: celinaPhoto
     }
 ]

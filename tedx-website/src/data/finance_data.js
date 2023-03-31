@@ -18,7 +18,7 @@ const data =
         img: clementinePhoto
     },
     {
-        name: "Timon Win",
+        name: "Timon Nguyen",
         major: "Finance & Information Systems Major",
         img: timonPhoto
     },
@@ -29,7 +29,7 @@ const data =
 
     },
     {
-        name: "Serene Salam",
+        name: "Serene Salem",
         major: "Integrated Social Sciences Major",
         img: serenePhoto
 

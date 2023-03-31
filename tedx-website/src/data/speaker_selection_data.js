@@ -34,7 +34,7 @@ const data =
 
     },
     {
-        name: "Jalin Fitzgerald",
+        name: "Jalin Marie",
         major: "History War & Society Major",
         img: jalinPhoto
 
