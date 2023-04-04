@@ -1,17 +1,12 @@
 import React from 'react';
-import Footer from "./components/footer/footer";
-import TedRoutes from "./ted_routes"
-import TedNavBar from './components/ted_navbar/ted_navbar'
-
+import ComingSoon from "./components/comingsoon"
 import './app.css'
-import 'bootstrap/dist/css/bootstrap.css';
-import './variables.css'
+import Footer from "./components/footer";
 
 function App() {
     return (
         <div className="App">
-            <TedNavBar />
-            <TedRoutes />
+            <ComingSoon />
             <Footer />
         </div>
     );

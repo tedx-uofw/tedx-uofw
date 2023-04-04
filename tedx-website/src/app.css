@@ -2,24 +2,5 @@ html,
 body,
 #root,
 .App {
-    font-family: NeueHaasDisplayRoman;
-
-    display: flex;
-    flex-direction: column;
     height: 100%;
-}
-
-.App {
-    background-size: cover;
-}
-
-/* common CSS */
-.page-container {
-    flex: 1;
-    padding: 0px var(--right-left-padding-size) 15px !important;
-    background-color: var(--background-color);
-}
-
-p {
-    color: var(--text-color);
 }
