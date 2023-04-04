@@ -5,6 +5,7 @@ import patriciaAllen from "../assets/speaker-photos/patriciaAllen.png"
 import susieSharpe from "../assets/speaker-photos/susieSharpe.png"
 import poojaTandon from "../assets/speaker-photos/PoojaTandon.jpeg"
 import nazilaSawhney from "../assets/speaker-photos/NazilaSawhney.jpeg"
+import michaelHuang from "../assets/speaker-photos/michaelHuang.jpg"
 
 const data =
 [
@@ -62,7 +63,7 @@ const data =
     {
         img: poojaTandon,
         name: "Pooja Tandon",
-        position: "General Pediatric Physician & PI at Seattle Children’s Hospital",
+        position: "Pediatrician & Researcher at University of Washington and Seattle Children’s Hospital",
         description: <p>
             Dr. Pooja Sarin Tandon is a general pediatrician and researcher dedicated to play equity, 
             promoting access to physical activity, outdoor recreation, and play for all children to optimize their health and well-being. 
@@ -100,6 +101,23 @@ const data =
             generation Indian boarding school survivor. In her late teens, she overcame an unfortunate act of violence that led 
             to her surviving a spinal cord injury; transforming her life to continually advocates for neuro-divergent and 
             accessibility inclusion in activism, leadership development and healing/wellness practices.
+        </p>
+    },
+    {
+        img: michaelHuang,
+        name: "Michael Huang",
+        position: "Founder of Milli",
+        description: <p>
+            Michael Huang is a third culture kid with an obsessive curiosity for all things storytelling, culture, and community. 
+            He has 15+ years of experience in the creative, arts, and advertising industries. As a Seattle native having grown up 
+            in the local Hip Hop scene, he's traveled the world competing in international breakdancing competitions, managed 
+            musicians, and shot photos and documentaries. He translated these experiences into his early work in social media during 
+            its initial rise and later at award winning global agencies such as Razorfish and McGarryBowen. After a stint on Madison 
+            Avenue in New York, he went on to found his own creative agency, Milli, in 2014 focused on creative, culture, and social 
+            change. Since then Milli has gone on to win numerous awards working with clients ranging from Microsoft and Netflix to 
+            Community Passageways and The Movement For Black Lives. These experiences have informed his perspective on how we can 
+            reconcile the inherent dilemma of living in a hyper-capitalistic society while also working towards a more equitable, 
+            just, and sustainable future.
         </p>
     }
 ]
