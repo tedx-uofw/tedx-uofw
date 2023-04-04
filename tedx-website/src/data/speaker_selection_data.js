@@ -8,6 +8,8 @@ import lindseyPhoto from "../assets/teamPhotos/lindseyGImg.png"
 import feliciaPhoto from "../assets/teamPhotos/feliciaRImg.png"
 import laylaPhoto from "../assets/teamPhotos/laylaAImg.png"
 import tiaPhoto from "../assets/teamPhotos/tiaBImg.png"
+import bradyPhoto from "../assets/teamPhotos/bradyIImg.png"
+import alessandraPhoto from "../assets/teamPhotos/alessandraR.png"
 
 
 const data =
@@ -69,5 +71,15 @@ const data =
         img: tiaPhoto
 
     },
+    {
+        name: "Brady Imperial",
+        major: "Environmental Science and Terrestrial Resource Management",
+        img: bradyPhoto
+    },
+    {
+        name: "Alessandra Roque",
+        major: "Law, Societies, and Justice",
+        img: alessandraPhoto
+    }
 ]
 export default data;
