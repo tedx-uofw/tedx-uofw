@@ -4,6 +4,7 @@ import SocietyApp from "../assets/sponsor-photos/society-app.png"
 import Standard from "../assets/sponsor-photos/standard.png"
 import ASUW from "../assets/sponsor-photos/asuw.png"
 import WSECU from "../assets/sponsor-photos/WSECU_Teal_RGB.png"
+import Cotopaxi from "../assets/sponsor-photos/cotopaxi.png"
 
 const data =
 [
@@ -30,6 +31,10 @@ const data =
     {
         altText: "Washington State Employees Credit Union logo",
         img: WSECU
+    },
+    {
+        altText: "Cotopaxi",
+        img: Cotopaxi
     }
 ]
 export default data;
