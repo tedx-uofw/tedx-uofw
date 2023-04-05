@@ -5,6 +5,7 @@ import Standard from "../assets/sponsor-photos/standard.png"
 import ASUW from "../assets/sponsor-photos/asuw.png"
 import WSECU from "../assets/sponsor-photos/WSECU_Teal_RGB.png"
 import Cotopaxi from "../assets/sponsor-photos/cotopaxi.png"
+import PPTTiPs from "../assets/sponsor-photos/PptTips.png"
 
 const data =
 [
@@ -35,6 +36,10 @@ const data =
     {
         altText: "Cotopaxi",
         img: Cotopaxi
+    },
+    {
+        altText: "PPT TiPS",
+        img: PPTTiPs
     }
 ]
 export default data;
