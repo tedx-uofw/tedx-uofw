@@ -9,11 +9,6 @@ import tedx_logo from '../../assets/tedx_logo.png';
 function TedNavBar() {
   const [expanded, setExpanded] = useState(false);
 
-  /*
-  <Nav.Link as={Link} to="/sponsors" onClick={() => setExpanded(false)}>
-    Sponsors
-  </Nav.Link>
-  */
   return (
     <Navbar bg="" variant="dark" expand="lg" className="p-0 navbar-fixed-top" expanded={expanded}>
       <Container className="ted-navbar-container">
@@ -35,6 +30,9 @@ function TedNavBar() {
               <NavDropdown.Item as={Link} to="/about-tedx" onClick={() => setExpanded(false)}>About TEDx</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/meet-the-team" onClick={() => setExpanded(false)}>Meet the Team</NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link as={Link} to="/sponsors" onClick={() => setExpanded(false)}>
+              Sponsors
+            </Nav.Link>
             <Button href="https://linktr.ee/tedxuofw22" target="_blank" variant="custom">Get Tickets</Button>
           </Nav>
         </Navbar.Collapse>

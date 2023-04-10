@@ -6,6 +6,7 @@ import ASUW from "../assets/sponsor-photos/asuw.png"
 import WSECU from "../assets/sponsor-photos/WSECU_Teal_RGB.png"
 import Cotopaxi from "../assets/sponsor-photos/cotopaxi.png"
 import PPTTiPs from "../assets/sponsor-photos/PptTips.png"
+import Aladdins from "../assets/sponsor-photos/aladdins.png"
 
 const data =
 [
@@ -40,6 +41,10 @@ const data =
     {
         altText: "PPT TiPS",
         img: PPTTiPs
+    },
+    {
+        altText: "Aladdin Gyro-Cery & Deli",
+        img: Aladdins
     }
 ]
 export default data;
