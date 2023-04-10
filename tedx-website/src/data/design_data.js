@@ -4,6 +4,7 @@ import madelynPhoto from "../assets/teamPhotos/madelynLImg.png"
 import zareenPhoto from "../assets/teamPhotos/zareenTImg.png"
 import somiPhoto from "../assets/teamPhotos/somiLImg.png"
 import henryPhoto from "../assets/teamPhotos/henryMImg.png"
+import ronanPhoto from "../assets/teamPhotos/ronanP.png"
 
 const data =
 [
@@ -36,6 +37,11 @@ const data =
         name: "Henry Miller",
         major: "Entrepreneurship Major",
         img: henryPhoto
+    },
+    {
+        name: "Ronan Pitzel",
+        major: "Psychology",
+        img: ronanPhoto
     }
 ]
 export default data;
