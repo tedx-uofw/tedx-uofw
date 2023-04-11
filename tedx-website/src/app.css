@@ -22,4 +22,5 @@ body,
 
 p {
     color: var(--text-color);
+    margin: 0 !important;
 }

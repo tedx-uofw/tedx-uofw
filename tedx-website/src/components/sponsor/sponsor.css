@@ -1,0 +1,42 @@
+.sponsor-content {
+    display: grid;
+    grid-template-columns: auto 70%;
+    column-gap: 12%;
+}
+
+.sponsor-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sponsor-img {
+    max-width: 100%;
+}
+
+.sponsor-divider {
+    content: "";
+    background:
+        repeating-linear-gradient(90deg, #3C3C3C 0 4px, #0000 0 8px);
+    height: 1.3px;
+    width: 100%;
+    margin: 40px 0px;
+}
+
+.sponsor-description {
+    max-height: 100%;
+}
+
+@media (max-width: 962px) {
+    .sponsor-content {
+        grid-template-columns: 1fr;
+    }
+
+    .sponsor-description {
+        margin-top: 3vh !important;
+    }
+
+    .sponsor-img {
+        max-width: 25vw;
+    }
+}

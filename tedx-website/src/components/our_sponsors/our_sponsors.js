@@ -1,12 +1,12 @@
 import React from 'react';
-import './our_sponsors.css';
 import sponsorData from "../../data/our_sponsors_data"
 import PageTitle from "../page_title/page_title"
+import Sponsor from "../sponsor/sponsor"
 
 function OurSponsors(props) {
-    const sponsors = sponsorData.map((item, i)=>{
+    const sponsors = sponsorData.map((item, i) => {
         return (
-            <img className="our-sponsors-img" src={item.img} alt={item.altText} />
+            <Sponsor img={item.img} name={item.altText} description={item.description} />
         )
     })
 
