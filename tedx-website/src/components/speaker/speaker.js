@@ -12,7 +12,7 @@ function Speaker(props) {
         </div>
         <p className="speaker-description">{props.description}</p>
       </div>
-      {props.name !== "Michael Huang" && <div className="speaker-divider"></div>}
+      {props.divider && <div className="speaker-divider"></div>}
     </section>
   );
 }
