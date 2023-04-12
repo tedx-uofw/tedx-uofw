@@ -20,7 +20,7 @@ function SpeakerList() {
                 name={speaker.name}
                 position={speaker.position}
                 description={speaker.description}
-                divider={speaker.name != "Michael Huang"}
+                divider={speaker.name !== "Michael Huang"}
               />
             ))}
             </div>
@@ -31,7 +31,7 @@ function SpeakerList() {
                 img={performer.img}
                 name={performer.name}
                 description={performer.description}
-                divider={performer.name != "UW Comedy Club"}
+                divider={performer.name !== "UW Comedy Club"}
               />
             ))}
         </div>
