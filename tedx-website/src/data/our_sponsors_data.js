@@ -55,7 +55,8 @@ const data =
     {
         altText: "Aladdin Gyro-Cery & Deli",
         img: Aladdins,
-        description: "Aladdin Char Burger made its official opening on April 1st, 2022, the first day of the holy month of Ramadan. Serving a wide selection of delicious food, such as juicy, fresh burgers, kabobs, chicken wings, and more, all for a reasonable and convenient price."
+        description: "Aladdin Gyro-Cery has earned a reputation as one of the top fast-casual Mediterranean, Greek, and Middle Eastern restaurants in the University District, the Seattle region, and across the nation since we opened in 1993. " + 
+        "Aladdin Char Burger made its official opening on April 1st, 2022, the first day of the holy month of Ramadan. Serving a wide selection of delicious food, such as juicy, fresh burgers, kabobs, chicken wings, and more, all for a reasonable and convenient price."
     }
 ]
 export default data;
