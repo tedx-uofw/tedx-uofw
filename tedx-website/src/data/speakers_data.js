@@ -1,9 +1,9 @@
 import christianMurphy from "../assets/speaker-photos/christianMurphy.png"
-import mattCrevin from "../assets/speaker-photos/mattCrevin.png"
+import mattCrevin from "../assets/speaker-photos/mattCrevin.jpeg"
 import nathanKutz from "../assets/speaker-photos/nathanKutz.png"
 import patriciaAllen from "../assets/speaker-photos/patriciaAllen.png"
 import susieSharpe from "../assets/speaker-photos/susieSharpe.png"
-import poojaTandon from "../assets/speaker-photos/PoojaTandon.jpeg"
+import poojaTandon from "../assets/speaker-photos/PoojaTandon.jpg"
 import nazilaSawhney from "../assets/speaker-photos/NazilaSawhney.jpeg"
 import michaelHuang from "../assets/speaker-photos/michaelHuang.jpg"
 
