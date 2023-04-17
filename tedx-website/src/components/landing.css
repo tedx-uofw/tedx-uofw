@@ -64,7 +64,8 @@
 .landing-about-tedx-container,
 .landing-seeing-the-invisible-container,
 .landing-venue-container,
-.landing-venue-container {
+.landing-venue-container,
+.landing-schedule-container {
   margin-top: 3.5rem !important;
 }
 
@@ -84,8 +85,8 @@
   border-radius: 1vh;
 }
 
-.landing-theme-content {
-  max-width: 70%;
+#landing-left-schedule {
+  margin-right: 4vw !important;
 }
 
 .landing-venue-content {
@@ -116,7 +117,12 @@
 
   .landing-seeing-the-invisible-container,
   .landing-venue-container,
-  .landing-venue-container {
+  .landing-venue-container,
+  .landing-schedule-container {
     margin-top: 50px !important;
+  }
+
+  .landing-schedule-container .col {
+    flex: none !important;
   }
 }
