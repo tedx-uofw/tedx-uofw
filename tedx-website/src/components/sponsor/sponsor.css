@@ -7,6 +7,8 @@
 .sponsor-container {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 100%;
 }
 
 .sponsor-img {
@@ -32,6 +34,6 @@
     }
 
     .sponsor-description {
-        margin-top: 20px !important;
+        margin-top: 5px !important;
     }
 }
