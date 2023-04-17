@@ -21,7 +21,7 @@
         repeating-linear-gradient(90deg, #3C3C3C 0 4px, #0000 0 8px);
     height: 1.3px;
     width: 100%;
-    margin: 40px 0px;
+    margin: 30px 0px;
 }
 
 .sponsor-description {
@@ -30,10 +30,15 @@
 
 @media (max-width: 962px) {
     .sponsor-content {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
     }
 
     .sponsor-description {
-        margin-top: 5px !important;
+        margin-top: 10px !important;
+    }
+
+    .sponsor-img {
+        width: 30%;
     }
 }
