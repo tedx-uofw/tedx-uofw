@@ -25,3 +25,13 @@
 .sponsor-description {
     max-height: 100%;
 }
+
+@media (max-width: 962px) {
+    .sponsor-content {
+        grid-template-columns: 1fr;
+    }
+
+    .sponsor-description {
+        margin-top: 20px !important;
+    }
+}
