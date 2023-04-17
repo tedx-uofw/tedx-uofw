@@ -1,5 +1,5 @@
 import TCDLogo from "../assets/performer-logos/tcd.png"
-import ComedyClubLogo from "../assets/performer-logos/uw_comedy_club.png"
+import ComedyClubLogo from "../assets/performer-logos/uw_comedy_club.jpeg"
 
 const data =
 [

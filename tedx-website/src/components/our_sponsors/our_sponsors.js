@@ -2,6 +2,7 @@ import React from 'react';
 import sponsorData from "../../data/our_sponsors_data"
 import PageTitle from "../page_title/page_title"
 import Sponsor from "../sponsor/sponsor"
+import "./our_sponsors.css";
 
 function OurSponsors(props) {
     const sponsors = sponsorData.map((item, i) => {
