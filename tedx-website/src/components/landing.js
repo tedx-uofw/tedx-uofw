@@ -60,24 +60,26 @@ function Landing(props){
                     <div className="col">
                         <p id="landing-left-schedule">
                         9:00 am: Doors open<br></br>
-                        10:10 am: How negative emotions can lead to a better life! by Nazila Sawhney<br></br>
-                        10:30 am: The Power of Belonging in Nature by Dr. Pooja Tandon<br></br>
-                        10:50 am: UW Comedy Club<br></br>
-                        11:10 am: Seeing ADHD for what it is, an epidemic by Christian Murphy<br></br>
-                        11:30 am: Raffle drawing<br></br>
-                        11:40 am: Invisible Work: The things we do that no one will ever see by Michael Huang<br></br>
-                        12:00 pm: Lunch<br></br>
+                        9:30 am: Welcoming remarks<br></br>
+                        10:00 am: Nazila Sawhney: How negative emotions can lead to a better life!<br></br>
+                        10:20 am: Dr. Pooja Tandon: The Power of Belonging in Nature<br></br>
+                        10:40 am: UW Comedy Club<br></br>
+                        11:00 am: Christian Murphy: Seeing ADHD for what it is, an epidemic<br></br>
+                        11:20 am: Raffle drawing<br></br>
+                        11:30 pm: Michael Huang: Invisible Work: The things we do that no one will ever see<br></br>
+                        12:00 pm: Intermission<br></br>
                         </p>
                     </div>
                     <div className="col">
                         <p>
-                        1:00 pm: Accelerating Scientific Discovery with Machine Learning by Professor Nathan Kutz<br></br>
-                        1:20 pm: UW Traditional Chinese Dance<br></br>
-                        1:40 pm: Deconstructing Leadership by Patricia Allen<br></br>
-                        2:00 pm: Listen to Learn by Matt Crevin<br></br>
-                        2:20 pm: Raffle drawing<br></br>
-                        2:30 pm: 4 Keys to Achieving Your Dream by Dr. Susie Sharpe<br></br>
-                        2:50 pm: Speakers Q & A<br></br>
+                        1:00 pm: Welcome back<br></br>
+                        1:20 pm: Professor Nathan Kutz: Accelerating Scientific Discovery with Machine Learning<br></br>
+                        1:40 pm: UW Traditional Chinese Dance<br></br>
+                        2:00 pm: Patricia Allen: Deconstructing Leadership<br></br>
+                        2:20 pm: Matt Crevin: Listen to Learn<br></br>
+                        2:40 pm: Raffle drawing<br></br>
+                        2:50 pm: Dr. Susie Sharpe: 4 Keys to Achieving Your Dream<br></br>
+                        3:10 pm: Closing remarks<br></br>
                         3:30 pm: Networking session<br></br>
                         4:00 pm: Conference concludes<br></br>
                         </p>
