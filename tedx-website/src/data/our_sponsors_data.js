@@ -7,6 +7,7 @@ import WSECU from "../assets/sponsor-photos/WSECU_Teal_RGB.png"
 import Cotopaxi from "../assets/sponsor-photos/cotopaxi.png"
 import PPTTiPs from "../assets/sponsor-photos/PptTips.png"
 import Aladdins from "../assets/sponsor-photos/aladdins.jpg"
+import LendMe from "../assets/sponsor-photos/LendMe.png"
 
 const data =
 [
@@ -51,6 +52,12 @@ const data =
         altText: "Society App logo",
         img: SocietyApp,
         description: "Society is the free all-in-one solution for student organizations. Everything you could possibly need, centralized in an end-to-end secured platform. We allow students to enhance existing communities, and discover those around them as well."
+    },
+    {
+        altText: "Lend Me Logo",
+        img: LendMe,
+        description: "LendMe is a peer-to-peer marketplace for college students seeking peer-to-peer engagements to resolve all their college-related needs. Students are able to generate income, help others, and build a network amongst their peers, " + 
+        "on a platform that is tiered towards students' success. With LendMe, you'll be able to leverage your skills and connect with students that are struggling in courses you are excelling in. We provide instant-pay via Stripe, secure-access via .edu email registration, virtual sessions via in-app FaceTime, and an efficient interface designed for student success."
     },
     {
         altText: "Aladdin Gyro-Cery & Deli",
