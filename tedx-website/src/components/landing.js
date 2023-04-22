@@ -111,8 +111,6 @@ function Landing(props){
                             audience. Additionally, the venue provides
                             adequate accommodations for those in need of
                             wheelchair seating or closed captions.
-                            <br></br><br></br>
-                            <a className="landing-kane-hall-text" href="https://transportation.uw.edu/park/visitor" target = "blank">Parking Information</a>
                         </p>
                     </div>       
                 </div>
