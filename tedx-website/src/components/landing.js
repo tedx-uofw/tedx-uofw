@@ -22,6 +22,14 @@ function Landing(props){
                     <img className = "landing-redX-image" src = {redX} alt = "Red X of TEDx Organization"></img>
                 </div>
             </div>
+            <div className = "landing-livestream-container row mt-60">
+                <div className="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                    <h1>Livestream</h1>
+                </div>
+                <div className="col-xs-6 col-sm-6 col-lg-6 col-md-6">
+                    <iframe width="100%" className="landing-livestream-iframe" src="https://www.youtube.com/embed/abjHrd5IyGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
             <div className = "landing-about-tedx-container row mt-60">
                 <div className="col-xs-6 col-sm-6 col-lg-6 col-md-6">
                     <h1>About TEDx</h1>

@@ -16,6 +16,10 @@
   font-size: calc(1rem + 0.3vw);
 }
 
+.landing-livestream-iframe {
+  aspect-ratio: 16 / 9;
+}
+
 .landing-eventContent {
   font-size: calc(2.0rem + 0.3vw);
   line-height: 80%;
