@@ -69,7 +69,8 @@
 .landing-seeing-the-invisible-container,
 .landing-venue-container,
 .landing-venue-container,
-.landing-schedule-container {
+.landing-schedule-container,
+.landing-livestream-container {
   margin-top: 3.5rem !important;
 }
 
