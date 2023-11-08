@@ -26,7 +26,7 @@ function App() {
                 <h3>Coming Soon</h3>
                 <br></br>
                 <p>TEDxUofW's 2024 conference theme and details will be announced soon.</p>
-                <p>In the meantime, check out our 2023 website!</p>
+                <p>In the meantime, check out our website from last years conference!</p>
             </Popup>
             <Footer />
         </div>
