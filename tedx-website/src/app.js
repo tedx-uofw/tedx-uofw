@@ -25,7 +25,8 @@ function App() {
             <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
                 <h3>Coming Soon</h3>
                 <br></br>
-                <p>TEDxUofW's 2024 conference theme and details will be announced soon.</p>
+                <p>TEDxUofW's conference will be held on April 13th, 2024.</p>
+                <p>The theme will be announced soon.</p>
                 <p>In the meantime, check out our website from last years conference!</p>
             </Popup>
             <Footer />
