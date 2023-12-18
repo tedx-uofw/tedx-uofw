@@ -15,7 +15,7 @@ function Landing(props){
                     <div className = "landing-eventContent">
                         <p>04.22.2023</p>
                         <p>9 AM - 4 PM @ <a className="landing-kane-hall-text" href="https://goo.gl/maps/nGRm4o1LVxASLjPE7" target = "blank">Kane Hall</a></p>
-                        <a href = "https://linktr.ee/tedxuofw22" target = "blank"><button className = "landing-buyTickets-button">Get Tickets</button></a>
+
                     </div>
                 </div>
                 <div className = "landing-redX-image-container">
@@ -48,7 +48,7 @@ function Landing(props){
                         illuminate some of the beautiful accomplishments
                         and perspectives our community and the world may
                         not have realized before.</p>
-                </div>            
+                </div>
             </div>
             <div className = "landing-venue-container row mt-60">
                 <div className="col-xs-6 col-sm-6 col-lg-6 col-md-6">
@@ -68,7 +68,7 @@ function Landing(props){
                             adequate accommodations for those in need of
                             wheelchair seating or closed captions.
                         </p>
-                    </div>       
+                    </div>
                 </div>
             </div>
         </div>

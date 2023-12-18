@@ -35,7 +35,6 @@ function TedNavBar() {
               <NavDropdown.Item as={Link} to="/about-tedx" onClick={() => setExpanded(false)}>About TEDx</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/meet-the-team" onClick={() => setExpanded(false)}>Meet the Team</NavDropdown.Item>
             </NavDropdown>
-            <Button href="https://linktr.ee/tedxuofw22" target="_blank" variant="custom">Get Tickets</Button>
           </Nav>
         </Navbar.Collapse>
       </Container>
